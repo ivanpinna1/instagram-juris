@@ -18,6 +18,7 @@ RAIZ = Path(__file__).resolve().parent
 USADOS = RAIZ / "usados.json"
 AGENDA = RAIZ / "agenda.json"
 TEMAS = ("Licitação", "Contrato Administrativo")
+TEMAS_TCE = ("LICITAÇÃO", "LICITAÇÕES E CONTRATOS", "CONTRATO ADMINISTRATIVO", "CONTRATAÇÃO", "CONCESSÃO PÚBLICA")
 
 
 def carregar(p, padrao):
@@ -63,6 +64,9 @@ def proximos(tsv, n, tribunal="TCU"):
     ordem = sorted(range(len(linhas)), key=lambda i: (data_sessao(linhas[i]), i), reverse=True)
     for idx in ordem:
         x = linhas[idx]
+        if tribunal != "TCU" and (x.get("contexto", "").split(".")[0].strip() not in TEMAS_TCE
+                                  or x.get("observacao")):
+            continue  # TCE: só licitações e contratos, e nada com recurso pendente
         if tribunal == "TCU" and x["informativo"].startswith("BJ"):
             tema = re.sub(r"^\[[^\]]*\]\s*", "", x["contexto"]).split(".")[0]
             if tema not in TEMAS:
@@ -73,7 +77,8 @@ def proximos(tsv, n, tribunal="TCU"):
         vistos.add(k)
         saida.append({"chave": k, "linha": idx + 2, "ano": ano(x),
                       "lei_antiga": ano(x) < "2021", **{c: x[c] for c in
-                      ("informativo", "sessoes", "acordao", "colegiado", "relator", "enunciado", "contexto")}})
+                      ("informativo", "sessoes", "acordao", "colegiado", "relator", "enunciado", "contexto")},
+                      **{c: x[c] for c in ("fonte_completa", "ponto_atencao") if x.get(c)}})
         if len(saida) >= n:
             break
     print(json.dumps(saida, ensure_ascii=False, indent=1))

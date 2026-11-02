@@ -14,7 +14,7 @@
       "tipo": "capa",
       "tag": "Obras e serviços de engenharia",
       "titulo": "O edital pode obrigar você a aplicar o desconto do último lance **igualmente em todos os itens** da planilha?",
-      "subtitulo": "O TCU respondeu no Acórdão 2788/2026 – Plenário"
+      "subtitulo": "Acórdão 2788/2026 – Plenário"
     },
     {
       "tipo": "texto",
@@ -22,11 +22,12 @@
       "paragrafos": [
         "É comum em licitações de obras: encerrada a disputa, o edital exige que a vencedora refaça a planilha aplicando o **mesmo percentual de desconto** do lance final em **todos os itens**, de forma linear.",
         "Parece uma regra simples de conferência. Para o TCU, porém, essa exigência é **irregular**."
-      ]
+      ],
+      "num": "01 — O PROBLEMA"
     },
     {
       "tipo": "citacao",
-      "titulo": "O que o TCU decidiu",
+      "titulo": "02 — O QUE O TCU DECIDIU",
       "citacao": "Em licitação de obras ou serviços de engenharia com critério de julgamento pelo menor preço, é irregular a exigência de aplicação homogênea da redução decorrente do último lance a todos os itens da planilha (...).",
       "fonte": "**TCU, Acórdão 2788/2026 – Plenário**, Rel. Min. Jhonatan de Jesus. Boletim de Jurisprudência nº 606 (sessões de 6 e 7/10/2026)."
     },
@@ -36,7 +37,8 @@
       "paragrafos": [
         "Porque a exigência afronta os princípios da **competitividade** e da **economicidade**, previstos no **art. 5º da Lei 14.133/2021**.",
         "Além disso, o **art. 59, § 3º**, da mesma lei já permite à Administração controlar os **preços unitários relevantes**, sem exigir que a redução do preço global se repita, no mesmo percentual, em toda a planilha."
-      ]
+      ],
+      "num": "03 — O FUNDAMENTO"
     },
     {
       "tipo": "texto",
@@ -45,12 +47,13 @@
         "A empresa pode distribuir o desconto entre os itens de acordo com a sua **real estrutura de custos**, desde que os preços unitários relevantes continuem aceitáveis.",
         "Se o edital impuser o desconto linear, a cláusula pode ser **impugnada** com base neste precedente.",
         "Atenção: essa liberdade **não autoriza o jogo de planilha**, que segue sob o controle da Administração."
-      ]
+      ],
+      "num": "04 — NA PRÁTICA"
     },
     {
       "tipo": "cta",
       "titulo": "Curta, **salve** e compartilhe",
-      "texto": "Siga **@ivan.pinna** para mais jurisprudência de licitações e contratos.\nAssessoria completa: oportunidades, documentação, impugnações, recursos e gestão de contratos."
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
     }
   ],
   "stories": [
@@ -63,7 +66,7 @@
     },
     {
       "tipo": "citacao",
-      "titulo": "Você sabia?",
+      "titulo": "VOCÊ SABIA?",
       "citacao": "É irregular o aproveitamento, para fins de qualificação técnico-operacional, de atestados emitidos em nome de pessoa jurídica diversa da licitante sem demonstração da efetiva transferência da capacidade técnico-operacional neles certificada, não sendo suficiente, para tanto, a mera existência de sócios comuns entre as empresas.",
       "fonte": "**TCU, Acórdão 2418/2026 – Plenário**, Rel. Min. Benjamin Zymler. Boletim de Jurisprudência nº 602.",
       "rodape": "Siga @ivan.pinna · Curta, salve e compartilhe"
@@ -73,5 +76,6 @@
   "usa": [
     "2788/2026|Plenário",
     "2418/2026|Plenário"
-  ]
+  ],
+  "musica": "nastelbom-motivation-motivation-music-623757.mp3"
 }

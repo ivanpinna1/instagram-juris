@@ -53,11 +53,23 @@
       ]
     },
     {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
       "tipo": "cta",
       "titulo": "Curta, **salve** e compartilhe",
       "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
     }
   ],
-  "legenda": "Atestado de outra empresa vale só porque os sócios são os mesmos? 🤔\n\nNo Acórdão 2418/2026 – Plenário (Boletim de Jurisprudência nº 602), o TCU firmou que é irregular aproveitar, para a qualificação técnico-operacional, atestados emitidos em nome de pessoa jurídica diversa da licitante sem demonstrar a efetiva transferência da capacidade técnico-operacional — e que a mera existência de sócios comuns não basta.\n\nNa prática: atestado de empresa coligada exige prova da transferência da capacidade; sem ela, a inabilitação se sustenta.\n\n👉 Curta, salve e compartilhe com quem cuida da habilitação.\n\n#licitações #licitacao #lei14133 #tcu #direitoadministrativo #contratosadministrativos #jurisprudencia #habilitacao #atestadotecnico #qualificacaotecnica",
-  "musica": "atlasaudio-corporate-ambient-625699.mp3"
+  "legenda": "Atestado de outra empresa vale só porque os sócios são os mesmos? 🤔\n\nNo Acórdão 2418/2026 – Plenário (Boletim de Jurisprudência nº 602), o TCU firmou que é irregular aproveitar, para a qualificação técnico-operacional, atestados emitidos em nome de pessoa jurídica diversa da licitante sem demonstrar a efetiva transferência da capacidade técnico-operacional — e que a mera existência de sócios comuns não basta.\n\nNa prática: atestado de empresa coligada exige prova da transferência da capacidade; sem ela, a inabilitação se sustenta.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem cuida da habilitação.\n\n#licitações #licitacao #lei14133 #tcu #direitoadministrativo #contratosadministrativos #jurisprudencia #habilitacao #atestadotecnico #qualificacaotecnica",
+  "musica": "nastelbom-motivation-motivation-music-623757.mp3"
 }

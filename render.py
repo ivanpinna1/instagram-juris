@@ -52,7 +52,24 @@ blockquote{font-family:PF;font-weight:600;font-size:CITApx;line-height:1.4}
 .icones svg{width:78px;height:78px;display:block;margin:0 auto 10px;color:var(--gold)}
 .servicos{margin-top:30px;font-size:25px;line-height:1.5;color:var(--sub);text-align:center}
 .servicos b{color:var(--gold);font-weight:600}
+.oferta h2{font-size:52px;margin-bottom:22px}
+.oferta .lead{font-size:30px;color:var(--sub);line-height:1.45;margin-bottom:30px}
+.oferta ul{list-style:none;margin:0 0 34px}
+.oferta li{font-size:31px;line-height:1.35;padding:15px 0 15px 46px;position:relative;border-bottom:1px solid rgba(214,176,102,.22)}
+.oferta li:before{content:"";position:absolute;left:6px;top:28px;width:13px;height:13px;background:var(--gold);transform:rotate(45deg)}
+.oferta .chamada{font-family:PF;font-weight:700;font-size:40px;line-height:1.25}
+.oferta .chamada b{background:linear-gradient(180deg,var(--gold1),var(--gold2));-webkit-background-clip:text;color:transparent}
 """
+
+OFERTA_PADRAO = {
+    "tipo": "oferta",
+    "titulo": "Sua empresa participa de **licitações**?",
+    "lead": "Terceirize toda a área com quem é especialista:",
+    "itens": ["Busca das melhores oportunidades", "Preparação e operação da licitação",
+              "Impugnações e recursos administrativos",
+              "Medidas judiciais e perante os Tribunais de Contas"],
+    "chamada": "Comente **QUERO** ou chame no direct.",
+}
 
 # Reel (9:16): letras maiores, logotipo mais próximo do conteúdo e zona segura do Instagram
 # (faixa inferior com legenda/@ e coluna direita com os botões ficam livres).
@@ -76,6 +93,11 @@ blockquote{font-size:REELCITApx}
 .icones div{font-size:26px}
 .servicos{font-size:34px;margin-top:38px}
 .foto{height:900px}
+.oferta h2{font-size:74px}
+.oferta .lead{font-size:44px}
+.oferta li{font-size:46px;padding:22px 0 22px 58px}
+.oferta li:before{top:40px;width:17px;height:17px}
+.oferta .chamada{font-size:56px}
 """
 
 ICONES = """<div class="icones">
@@ -132,6 +154,11 @@ def slide(s, w, h, idx, total, story, reel=False):
         c += f'<div class="aspas">“</div><blockquote>{md(s["citacao"])}</blockquote>'
         if s.get("fonte"):
             c += f'<div class="fonte">{md(s["fonte"])}</div>'
+    elif tipo == "oferta":
+        c = (f'<div class="num">Ivan Pinna · Advocacia</div><h2>{md(s["titulo"])}</h2>'
+             f'<div class="lead">{md(s.get("lead", ""))}</div><ul>'
+             + "".join(f"<li>{md(i)}</li>" for i in s["itens"]) +
+             f'</ul><div class="chamada">{md(s.get("chamada", ""))}</div>')
     elif tipo == "cta":
         centro = " centro"
         c = f'<h1>{md(s.get("titulo", "Curta, **salve** e compartilhe"))}</h1>{ICONES}'
@@ -149,12 +176,18 @@ def slide(s, w, h, idx, total, story, reel=False):
     else:
         pe = ""
     return (f'<!doctype html><html><head><meta charset="utf-8"><style>{css}</style></head>'
-            f'<body class="{"cta-reel" if (reel and cta) else ""}">{foto}{cab}<div class="corpo{centro}">{c}</div>{pe}</body></html>')
+            f'<body class="{"cta-reel" if (reel and cta) else ""} {"oferta" if tipo == "oferta" else ""}">{foto}{cab}<div class="corpo{centro}">{c}</div>{pe}</body></html>')
 
 
 def render(post_json):
     post_json = Path(post_json).resolve()
     post = json.loads(post_json.read_text(encoding="utf-8"))
+    # toda publicação leva a tela de oferta dos serviços antes da tela final
+    car = post.get("carrossel", [])
+    if car and not any(x["tipo"] == "oferta" for x in car):
+        pos = next((i for i, x in enumerate(car) if x["tipo"] == "cta"), len(car))
+        car.insert(pos, dict(OFERTA_PADRAO))
+        post_json.write_text(json.dumps(post, ensure_ascii=False, indent=2), encoding="utf-8")
     out = post_json.parent
     gerados = []
     with sync_playwright() as p:

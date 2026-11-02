@@ -55,10 +55,14 @@ menos de 2 dias.
 - Não mencionar nomes de responsáveis, apenados ou empresas.
 - Enunciados anteriores a 2021 (Lei 8.666/1993): só usar se o entendimento persistir sob a Lei
   14.133/2021, e dizer isso expressamente no post.
-- Carrossel de 6 telas: capa com pergunta ou afirmação-gancho; 01 — O problema; 02 — O que o TCU
-  decidiu (citação + fonte); 03 — O fundamento; 04 — Na prática, para quem licita; tela final
-  "Curta, salve e compartilhe" (com a foto do Ivan).
-- Legenda: gancho, resumo em 2 ou 3 parágrafos, "👉 Curta, salve e compartilhe" e até 10
-  hashtags (#licitações #lei14133 #tcu e temáticas).
+- Carrossel de 7 telas: capa com pergunta ou afirmação-gancho; 01 — O problema; 02 — O que o TCU
+  decidiu (citação + fonte); 03 — O fundamento; 04 — Na prática, para quem licita; tela de oferta
+  dos serviços do escritório (o render.py insere sozinho, se faltar); tela final "Curta, salve e
+  compartilhe" (com a foto do Ivan).
+- Legenda: gancho, resumo em 2 ou 3 parágrafos, o parágrafo de oferta abaixo (sempre, igual),
+  "👉 Curta, salve e compartilhe" e até 10 hashtags (#licitações #lei14133 #tcu e temáticas).
+  Oferta: "💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista:
+  busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e
+  perante os Tribunais de Contas. Comente QUERO ou chame no direct."
 - Variar os temas ao longo do dia (não repetir o mesmo assunto nos três horários).
 - Música: sorteada entre as faixas da pasta do Ivan; não publicar as faixas no repositório.

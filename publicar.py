@@ -2,10 +2,10 @@
 """Publica no Instagram (API oficial, login do Instagram) os itens vencidos da agenda.
 
 Roda no GitHub Actions. Variáveis de ambiente:
-  IG_TOKEN       token de acesso de longa duração (Secret)
+  IG_TOKEN       token de usuário do sistema do Meta, sem expiração (Secret)
   IG_USER_ID     ID da conta profissional do Instagram (Secret ou variável)
   IMG_BASE_URL   opcional; padrão: raw.githubusercontent.com/<repo>/main
-  IG_API         opcional; padrão: https://graph.instagram.com
+  IG_API         opcional; padrão: https://graph.facebook.com/v26.0
   DRY_RUN=1      só mostra o que faria
 
 agenda.json: lista de {"id", "quando" (ISO com fuso), "tipo": "carrossel"|"story",
@@ -17,7 +17,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent
-API = os.environ.get("IG_API", "https://graph.instagram.com").rstrip("/")
+API = os.environ.get("IG_API", "https://graph.facebook.com/v26.0").rstrip("/")
 TOKEN = os.environ.get("IG_TOKEN", "")
 USER = os.environ.get("IG_USER_ID", "")
 REPO = os.environ.get("GITHUB_REPOSITORY", "")

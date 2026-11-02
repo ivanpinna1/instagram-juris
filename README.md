@@ -16,7 +16,6 @@ valer e são publicados nos dias e horários previstos. Para pedir ajuste, comen
 
 ## Secrets (Settings → Secrets and variables → Actions)
 
-- `IG_TOKEN` — token do Instagram (gerado no painel do app no Meta).
-- `IG_USER_ID` — ID da conta do Instagram.
-- `GH_PAT` — token do GitHub com permissão de escrita em *Secrets* deste repositório, usado
-  apenas para renovar o `IG_TOKEN` automaticamente nos dias 1 e 15.
+- `IG_TOKEN` — token de usuário do sistema do app "Publicador Ivan Pinna" no Meta (não expira).
+  Para trocá-lo, gere outro no painel do app e substitua o valor aqui.
+- `IG_USER_ID` — ID da conta do Instagram (17841401897076656).

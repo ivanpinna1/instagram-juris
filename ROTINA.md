@@ -19,7 +19,8 @@ por isso **nada vai ao ar sem o merge do Pull Request pelo Ivan**.
    `posts/2026-11-03_ac2788-2026/post.json`, com `usa` listando as chaves dos dois acórdãos.
 5. `python3 fila.py agendar posts/<pasta> <AAAA-MM-DDTHH:MM> --musicas <pasta de músicas>` para cada
    post (gera as telas, o Reel com música sorteada e agenda carrossel + Reel no mesmo horário).
-   O story é feito pelo próprio Instagram (compartilhamento automático do post no story). Conferir as imagens geradas
+   O mesmo vídeo do Reel também sai como story, no mesmo horário. A música do carrossel o Ivan
+   acrescenta manualmente pelo app. Conferir as imagens geradas
    (o render avisa se algum texto transbordou; nesse caso, encurtar o texto).
 6. Criar a branch `lote-<AAAA-MM-DD>`, commitar e abrir Pull Request para `main` com a lista dos
    posts e as capas, e avisar o Ivan para revisar e fazer o merge.

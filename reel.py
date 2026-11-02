@@ -39,6 +39,10 @@ def gerar(pasta, musicas_dir=None, seed=None):
     imgs = [pasta / f"reel_{i:02d}.jpg" for i in range(1, len(slides) + 1)]
     durs = [dur_slide(s) for s in slides]
     total = sum(durs) - XF * (len(durs) - 1)
+    if total > 58:  # o mesmo vídeo vai para o story, que aceita no máximo 60 s
+        fator = (58 + XF * (len(durs) - 1)) / sum(durs)
+        durs = [d * fator for d in durs]
+        total = sum(durs) - XF * (len(durs) - 1)
 
     mdir = Path(musicas_dir or os.environ.get("MUSICAS_DIR") or RAIZ / "assets" / "musicas")
     faixas = sorted(p for p in mdir.rglob("*.mp3"))

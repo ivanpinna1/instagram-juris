@@ -5,7 +5,7 @@
       Lista (JSON) os próximos enunciados de licitações e contratos ainda não usados,
       do mais recente para o mais antigo, sem repetir acórdão.
   python3 fila.py agendar posts/<id> AAAA-MM-DDTHH:MM [--musicas <pasta>]
-      Gera as telas e o Reel (música sorteada) e agenda carrossel + Reel no mesmo horário
+      Gera as telas e o Reel (música sorteada) e agenda carrossel + Reel + story (o próprio Reel) no mesmo horário
       (Brasília). Horários padrão do dia: 08:00, 13:00 e 20:00. Marca os acórdãos como usados.
 """
 import csv, json, re, subprocess, sys
@@ -69,6 +69,8 @@ def agendar(pasta, quando, musicas=None):
                    "legenda": post["legenda"]})
     agenda.append({"id": f"{post['id']}:reel", "quando": iso, "tipo": "reel",
                    "video": f"{rel}/reel.mp4", "legenda": post["legenda"]})
+    agenda.append({"id": f"{post['id']}:story", "quando": iso, "tipo": "story",
+                   "video": f"{rel}/reel.mp4"})
     agenda.sort(key=lambda i: i["quando"])
     AGENDA.write_text(json.dumps(agenda, ensure_ascii=False, indent=2), encoding="utf-8")
     usados = carregar(USADOS, {})

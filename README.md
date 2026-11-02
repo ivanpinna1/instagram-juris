@@ -1,11 +1,12 @@
 # Publicador de jurisprudência — @ivan.pinna
 
-Posts semanais (carrossel + stories) a partir da base de enunciados do TCU sobre licitações e
+Três publicações por dia (carrossel + Reel + story) a partir da base de enunciados do TCU sobre licitações e
 contratos, publicados automaticamente pela API oficial do Instagram.
 
 - `render.py` — gera as artes (carrossel 1080×1350 e story 1080×1920) a partir de `post.json`.
 - `fila.py` — escolhe os próximos acórdãos e monta a `agenda.json`.
-- `publicar.py` — roda no GitHub Actions às 8h, 12h e 18h e publica o que estiver vencido.
+- `reel.py` — monta o Reel (vídeo 9:16) com música sorteada; o mesmo vídeo vai para o story.
+- `publicar.py` — roda no GitHub Actions às 8h, 13h e 20h e publica o que estiver vencido.
 - `ROTINA.md` — roteiro e regras editoriais do lote semanal.
 
 ## Como aprovar a semana
@@ -16,6 +17,7 @@ valer e são publicados nos dias e horários previstos. Para pedir ajuste, comen
 
 ## Secrets (Settings → Secrets and variables → Actions)
 
-- `IG_TOKEN` — token de usuário do sistema do app "Publicador Ivan Pinna" no Meta (não expira).
-  Para trocá-lo, gere outro no painel do app e substitua o valor aqui.
+- `IG_TOKEN` — token do usuário do sistema "Robo Publicacoes" (portfólio BM de Ivan Pinna,
+  app Publicador Ivan Pinna), sem expiração. Para trocá-lo, gere outro em Configurações do
+  negócio → Usuários do sistema → Robo Publicacoes → Gerar token, e substitua o valor aqui.
 - `IG_USER_ID` — ID da conta do Instagram (17841401897076656).

@@ -9,7 +9,7 @@ Roda no GitHub Actions. Variáveis de ambiente:
   DRY_RUN=1      só mostra o que faria
 
 agenda.json: lista de {"id", "quando" (ISO com fuso), "tipo": "carrossel"|"reel"|"story",
-                       "imagens": [caminhos] ou "video": caminho (reel), "legenda" (carrossel e reel)}
+                       "imagens": [caminhos] ou "video": caminho (reel e story em vídeo), "legenda" (carrossel e reel)}
 publicados.json: {id: {"media_id", "em"}} — mantido pelo próprio script.
 """
 import json, os, sys, time, urllib.parse, urllib.request
@@ -61,6 +61,10 @@ def publicar(item):
         c = chamar("POST", f"{USER}/media", media_type="REELS", video_url=url_img(item["video"]),
                    caption=item.get("legenda", ""), share_to_feed="true")["id"]
         aguardar(c, tentativas=72)  # vídeo: até 6 min de processamento
+        return chamar("POST", f"{USER}/media_publish", creation_id=c)["id"]
+    if item["tipo"] == "story" and item.get("video"):
+        c = chamar("POST", f"{USER}/media", media_type="STORIES", video_url=url_img(item["video"]))["id"]
+        aguardar(c, tentativas=72)
         return chamar("POST", f"{USER}/media_publish", creation_id=c)["id"]
     imgs = [url_img(c) for c in item["imagens"]]
     if item["tipo"] == "story":

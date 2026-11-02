@@ -1,4 +1,4 @@
-# Publicador de jurisprudência do TCU — @ivan.pinna
+# Publicador de jurisprudência — @ivan.pinna
 
 Posts semanais (carrossel + stories) a partir da base de enunciados do TCU sobre licitações e
 contratos, publicados automaticamente pela API oficial do Instagram.

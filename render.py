@@ -23,6 +23,7 @@ CSS = FONTES + """
 *{margin:0;padding:0;box-sizing:border-box}
 body{width:Wpx;height:Hpx;background:#000;font-family:IN,sans-serif;color:var(--ink);overflow:hidden;position:relative}
 .logo{position:absolute;left:50%;transform:translateX(-50%);top:LOGOTOPpx;width:LOGOWpx}
+.trib{position:absolute;left:60px;top:58px;height:TRIBHpx}
 .pg{position:absolute;right:60px;top:60px;font-family:CZ;font-weight:600;font-size:24px;letter-spacing:3px;color:var(--gold)}
 .corpo{position:absolute;left:84px;right:84px;top:TOPOpx;bottom:BASEpx;display:flex;flex-direction:column;justify-content:center}
 .centro{text-align:center;align-items:center}
@@ -75,6 +76,7 @@ OFERTA_PADRAO = {
 # (faixa inferior com legenda/@ e coluna direita com os botões ficam livres).
 CSS_REEL = """
 .logo{top:150px;width:364px}
+.trib{top:170px;left:70px}
 .corpo{top:480px;bottom:400px;left:110px;right:130px}
 .centro{left:130px}
 h1{font-size:REELCAPApx}
@@ -112,7 +114,7 @@ def md(t):
     return re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", t).replace("\n", "<br>")
 
 
-def slide(s, w, h, idx, total, story, reel=False):
+def slide(s, w, h, idx, total, story, reel=False, tribunal="TCU"):
     tipo = s["tipo"]
     cta = tipo == "cta"
     grande = tipo in ("capa", "cta")
@@ -122,6 +124,7 @@ def slide(s, w, h, idx, total, story, reel=False):
          "TOPO": (330 if grande else 270) if not story else (470 if grande else 410),
          "BASE": 130 if not story else 230,
          "FOTOH": 650 if not story else 900,
+         "TRIBH": (62 if tribunal == "TCU" else 58) if not story else (74 if tribunal == "TCU" else 70),
          "CAPA": s.get("tam", 66 if not story else 78),
          "TEXTO": s.get("tam_texto", 35 if not story else 42),
          "CITA": s.get("tam_cit", 42 if not story else 50)}
@@ -131,10 +134,12 @@ def slide(s, w, h, idx, total, story, reel=False):
     css = CSS + (CSS_REEL.replace("REELCAPApx", f'{s.get("tam_reel", 92)}px')
                  .replace("REELTEXTOpx", f'{s.get("tam_texto_reel", 48)}px')
                  .replace("REELCITApx", f'{s.get("tam_cit_reel", 56)}px') if reel else "")
-    for k in ("LOGOTOP", "LOGOW", "FOTOH", "TOPO", "BASE", "CAPA", "TEXTO", "CITA", "W", "H"):
+    for k in ("TRIBH", "LOGOTOP", "LOGOW", "FOTOH", "TOPO", "BASE", "CAPA", "TEXTO", "CITA", "W", "H"):
         css = css.replace(f"{k}px", f"{v[k]}px")
 
     cab = f'<img class="logo" src="{A}/logo_escritorio.png">'
+    if tipo in ("capa", "texto", "citacao"):  # logotipo do tribunal nas telas de conteúdo
+        cab += f'<img class="trib" src="{A}/tribunal_{tribunal.lower()}.png">'
     if not story and not grande:
         cab += f'<div class="pg">{idx:02d}/{total:02d}</div>'
     foto = f'<img class="foto" src="{A}/foto_terno.png">' if cta else ""
@@ -189,6 +194,7 @@ def render(post_json):
         car.insert(pos, dict(OFERTA_PADRAO))
         post_json.write_text(json.dumps(post, ensure_ascii=False, indent=2), encoding="utf-8")
     out = post_json.parent
+    tribunal = post.get("fonte", {}).get("tribunal", "TCU")
     gerados = []
     with sync_playwright() as p:
         b = p.chromium.launch()
@@ -199,7 +205,7 @@ def render(post_json):
             pg = b.new_page(viewport={"width": w, "height": h})
             for i, s in enumerate(slides, 1):
                 tmp = out / f"_{nome}.html"
-                tmp.write_text(slide(s, w, h, i, len(slides), story, reel), encoding="utf-8")
+                tmp.write_text(slide(s, w, h, i, len(slides), story, reel, tribunal), encoding="utf-8")
                 pg.goto(tmp.as_uri()); pg.wait_for_load_state("networkidle")
                 pg.evaluate("document.fonts.ready")
                 # ajusta o texto ao espaço: reduz as letras do conteúdo até caber (no máximo 30%)

@@ -1,0 +1,35 @@
+name: Publicar no Instagram
+
+on:
+  schedule:
+    # 8h, 12h e 18h no horário de Brasília (UTC-3)
+    - cron: "0 11,15,21 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publicar itens vencidos da agenda
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: python3 publicar.py
+      - name: Registrar o que foi publicado
+        if: always()
+        run: |
+          if [ -n "$(git status --porcelain publicados.json)" ]; then
+            git config user.name "publicador"
+            git config user.email "publicador@users.noreply.github.com"
+            git add publicados.json
+            git commit -m "Registra publicações"
+            git push
+          fi

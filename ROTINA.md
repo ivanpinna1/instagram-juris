@@ -18,8 +18,10 @@ próprio Reel), no mesmo horário. Horários (Brasília):
 - **TCE-ES:** 10:30 e 17:00 — base `references/tce-es/enunciados.tsv` da mesma página do acervo,
   **só quando ela existir** (o Ivan salva os informativos do TCE-ES no acervo e o "atualize o
   acervo" monta essa base). Enquanto não existir, deixe esses horários vagos, sem avisar.
-  Use `python3 fila.py proximos <base do TCE-ES> --tribunal TCE-ES` e, no `usa`, a chave com o
-  prefixo que o comando mostrar (ex.: `"TCE-ES 1234/2026|Plenário"`). Na capa, `tag` com o tema e
+  Use `python3 fila.py proximos <base do TCE-ES> --tribunal TCE-ES` e, no `usa`, a chave exata que o
+  comando mostrar (ex.: `"TCE-ES Acórdão 547/2026|1ª Câmara|83e32d"`). A base traz também
+  `ponto_atencao` (síntese do próprio tribunal, útil para a tela "Na prática", reescrita em
+  linguagem própria) e `fonte_completa`. Modelo: `posts/2026-11-03_tcees-ac547-2026/post.json`. Na capa, `tag` com o tema e
   `subtitulo` "TCE-ES · Acórdão nº/ano – Colegiado"; fonte no padrão "TCE-ES, Acórdão nº/ano –
   Colegiado, Rel. Cons. Fulano. Informativo de Jurisprudência nº X".
 

@@ -72,6 +72,9 @@ def proximos(tsv, n, tribunal="TCU"):
             if tema not in TEMAS:
                 continue
         k = pref + chave(x["acordao"], x["colegiado"])
+        if pref:
+            import hashlib
+            k += "|" + hashlib.md5(re.sub(r"\W", "", x["enunciado"].lower())[:80].encode()).hexdigest()[:6]
         if k in usados or k in vistos or not x["acordao"].strip():
             continue
         vistos.add(k)

@@ -23,7 +23,7 @@ CSS = FONTES + """
 *{margin:0;padding:0;box-sizing:border-box}
 body{width:Wpx;height:Hpx;background:#000;font-family:IN,sans-serif;color:var(--ink);overflow:hidden;position:relative}
 .logo{position:absolute;left:50%;transform:translateX(-50%);top:LOGOTOPpx;width:LOGOWpx}
-.trib{position:absolute;left:60px;top:58px;height:TRIBHpx}
+.trib{position:absolute;left:54px;top:46px;height:TRIBHpx}
 .pg{position:absolute;right:60px;top:60px;font-family:CZ;font-weight:600;font-size:24px;letter-spacing:3px;color:var(--gold)}
 .corpo{position:absolute;left:84px;right:84px;top:TOPOpx;bottom:BASEpx;display:flex;flex-direction:column;justify-content:center}
 .centro{text-align:center;align-items:center}
@@ -76,7 +76,7 @@ OFERTA_PADRAO = {
 # (faixa inferior com legenda/@ e coluna direita com os botões ficam livres).
 CSS_REEL = """
 .logo{top:150px;width:364px}
-.trib{top:170px;left:70px}
+.trib{top:160px;left:64px}
 .corpo{top:480px;bottom:400px;left:110px;right:130px}
 .centro{left:130px}
 h1{font-size:REELCAPApx}
@@ -124,7 +124,7 @@ def slide(s, w, h, idx, total, story, reel=False, tribunal="TCU"):
          "TOPO": (330 if grande else 270) if not story else (470 if grande else 410),
          "BASE": 130 if not story else 230,
          "FOTOH": 650 if not story else 900,
-         "TRIBH": (62 if tribunal == "TCU" else 58) if not story else (74 if tribunal == "TCU" else 70),
+         "TRIBH": (92 if tribunal == "TCU" else 88) if not story else (100 if tribunal == "TCU" else 84),
          "CAPA": s.get("tam", 66 if not story else 78),
          "TEXTO": s.get("tam_texto", 35 if not story else 42),
          "CITA": s.get("tam_cit", 42 if not story else 50)}

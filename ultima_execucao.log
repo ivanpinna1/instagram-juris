@@ -1,0 +1,6 @@
+2026-11-02T20:03:05.164371+00:00
+→ 2026-11-03_ac2788-2026:carrossel (carrossel, 6 arquivo(s))
+   ERRO: POST 17841401897076656/media: HTTP 400 {"error":{"message":"Unsupported post request. Object with ID '17841401897076656' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https:\/\/developers.facebook.com\/docs\/graph-api","type":"GraphMethodException","code":100,"error_subcode":33,"fbtrace_id":"Ax5K1Y1oRLEMbqlUzLlAdqG"}}
+→ 2026-11-03_ac2788-2026:reel (reel, 1 arquivo(s))
+   ERRO: POST 17841401897076656/media: HTTP 400 {"error":{"message":"Unsupported post request. Object with ID '17841401897076656' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https:\/\/developers.facebook.com\/docs\/graph-api","type":"GraphMethodException","code":100,"error_subcode":33,"fbtrace_id":"Ac63AOgnOQBDGGG2dpx7guo"}}
+código de saída: 1

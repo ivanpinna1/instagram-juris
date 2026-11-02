@@ -11,14 +11,15 @@ por isso **nada vai ao ar sem o merge do Pull Request pelo Ivan**.
 2. `python3 fila.py proximos <enunciados.tsv> --n 12` → candidatos em ordem do mais recente
    para o mais antigo, já filtrados (Informativos de L&C e, dos Boletins, só "Licitação" e
    "Contrato Administrativo") e sem acórdãos já usados.
-3. Para cada dia útil da semana seguinte (seg a sex), escolher **um** enunciado para o carrossel e
-   **outro** para o story "Você sabia?". Pular enunciados de alcance muito restrito ou meramente
+3. Para cada dia da semana seguinte, escolher **três** enunciados, um para cada horário
+   (08:00, 13:00 e 20:00). Cada enunciado vira um carrossel e um Reel idênticos. Pular enunciados de alcance muito restrito ou meramente
    processuais; preferir os úteis a licitantes (habilitação, propostas, impugnação, recursos,
    execução e reequilíbrio de contratos).
 4. Criar `posts/<AAAA-MM-DD>_ac<numero>-<ano>/post.json` no formato do post-modelo
    `posts/2026-11-03_ac2788-2026/post.json`, com `usa` listando as chaves dos dois acórdãos.
-5. `python3 fila.py agendar posts/<pasta> <AAAA-MM-DD>` para cada dia (gera as imagens e agenda:
-   8h story "Você sabia?", 12h carrossel, 18h story de chamada). Conferir as imagens geradas
+5. `python3 fila.py agendar posts/<pasta> <AAAA-MM-DDTHH:MM> --musicas <pasta de músicas>` para cada
+   post (gera as telas, o Reel com música sorteada e agenda carrossel + Reel no mesmo horário).
+   O story é feito pelo próprio Instagram (compartilhamento automático do post no story). Conferir as imagens geradas
    (o render avisa se algum texto transbordou; nesse caso, encurtar o texto).
 6. Criar a branch `lote-<AAAA-MM-DD>`, commitar e abrir Pull Request para `main` com a lista dos
    posts e as capas, e avisar o Ivan para revisar e fazer o merge.
@@ -38,5 +39,5 @@ por isso **nada vai ao ar sem o merge do Pull Request pelo Ivan**.
   tela final "Curta, salve e compartilhe".
 - Legenda: gancho, resumo em 2 ou 3 parágrafos, "👉 Curta, salve e compartilhe" e até 10
   hashtags (#licitações #lei14133 #tcu e temáticas).
-- Story 1 (chamada): "Novo post no feed" + manchete. Story 2: "Você sabia?" com o enunciado literal
-  (curto) e a fonte.
+- Música: sorteada entre as faixas sem direitos autorais do Ivan (Pixabay e afins); não
+  publicar as faixas no repositório.

@@ -1,13 +1,5 @@
 [
   {
-    "id": "2026-11-03_ac2788-2026:story-voce-sabia",
-    "quando": "2026-11-03T08:00:00-03:00",
-    "tipo": "story",
-    "imagens": [
-      "posts/2026-11-03_ac2788-2026/story_02.jpg"
-    ]
-  },
-  {
     "id": "2026-11-03_ac2788-2026:carrossel",
     "quando": "2026-11-02T16:30:00-03:00",
     "tipo": "carrossel",
@@ -19,6 +11,13 @@
       "posts/2026-11-03_ac2788-2026/carrossel_05.jpg",
       "posts/2026-11-03_ac2788-2026/carrossel_06.jpg"
     ],
+    "legenda": "O edital pode obrigar a vencedora a aplicar o desconto do último lance igualmente em todos os itens da planilha? 🤔\n\nNo Acórdão 2788/2026 – Plenário (Boletim de Jurisprudência nº 606), o TCU firmou que, em licitações de obras e serviços de engenharia julgadas pelo menor preço, é irregular exigir a aplicação homogênea da redução do último lance a todos os itens da planilha.\n\nA exigência fere a competitividade e a economicidade (art. 5º da Lei 14.133/2021), e o art. 59, § 3º, já garante à Administração o controle dos preços unitários relevantes, sem impor o desconto linear.\n\nNa prática: a empresa pode distribuir o desconto conforme a sua estrutura de custos, e a cláusula que impõe o desconto linear pode ser impugnada. Mas atenção: isso não abre espaço para o jogo de planilha.\n\n👉 Curta, salve e compartilhe com quem participa de licitações de obras.\n\n#licitações #licitacao #lei14133 #tcu #obraspublicas #engenharia #pregaoeletronico #direitoadministrativo #contratosadministrativos #jurisprudencia"
+  },
+  {
+    "id": "2026-11-03_ac2788-2026:reel",
+    "quando": "2026-11-02T16:30:00-03:00",
+    "tipo": "reel",
+    "video": "posts/2026-11-03_ac2788-2026/reel.mp4",
     "legenda": "O edital pode obrigar a vencedora a aplicar o desconto do último lance igualmente em todos os itens da planilha? 🤔\n\nNo Acórdão 2788/2026 – Plenário (Boletim de Jurisprudência nº 606), o TCU firmou que, em licitações de obras e serviços de engenharia julgadas pelo menor preço, é irregular exigir a aplicação homogênea da redução do último lance a todos os itens da planilha.\n\nA exigência fere a competitividade e a economicidade (art. 5º da Lei 14.133/2021), e o art. 59, § 3º, já garante à Administração o controle dos preços unitários relevantes, sem impor o desconto linear.\n\nNa prática: a empresa pode distribuir o desconto conforme a sua estrutura de custos, e a cláusula que impõe o desconto linear pode ser impugnada. Mas atenção: isso não abre espaço para o jogo de planilha.\n\n👉 Curta, salve e compartilhe com quem participa de licitações de obras.\n\n#licitações #licitacao #lei14133 #tcu #obraspublicas #engenharia #pregaoeletronico #direitoadministrativo #contratosadministrativos #jurisprudencia"
   }
 ]

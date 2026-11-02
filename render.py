@@ -3,7 +3,7 @@
 (fundo preto, logotipo dourado centralizado no topo, foto de terno all black na tela final).
 
 Uso: python3 render.py posts/<id>/post.json
-Saída: posts/<id>/carrossel_01.jpg ... e posts/<id>/story_01.jpg ...
+Saída: posts/<id>/carrossel_NN.jpg, reel_NN.jpg (telas 9:16 do Reel) e story_NN.jpg
 """
 import html, json, re, sys
 from pathlib import Path
@@ -66,7 +66,7 @@ def md(t):
     return re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", t).replace("\n", "<br>")
 
 
-def slide(s, w, h, idx, total, story):
+def slide(s, w, h, idx, total, story, reel=False):
     tipo = s["tipo"]
     cta = tipo == "cta"
     grande = tipo in ("capa", "cta")
@@ -114,7 +114,7 @@ def slide(s, w, h, idx, total, story):
     else:
         raise ValueError(tipo)
 
-    if cta:
+    if cta or reel:
         pe = ""
     elif story:
         pe = f'<div class="pe">{md(s.get("rodape", "Post completo no feed"))}</div>'
@@ -133,12 +133,14 @@ def render(post_json):
     gerados = []
     with sync_playwright() as p:
         b = p.chromium.launch()
-        for nome, slides, (w, h), story in (("carrossel", post.get("carrossel", []), (1080, 1350), False),
-                                           ("story", post.get("stories", []), (1080, 1920), True)):
+        for nome, slides, (w, h), story, reel in (
+                ("carrossel", post.get("carrossel", []), (1080, 1350), False, False),
+                ("reel", post.get("carrossel", []), (1080, 1920), True, True),
+                ("story", post.get("stories", []), (1080, 1920), True, False)):
             pg = b.new_page(viewport={"width": w, "height": h})
             for i, s in enumerate(slides, 1):
                 tmp = out / f"_{nome}.html"
-                tmp.write_text(slide(s, w, h, i, len(slides), story), encoding="utf-8")
+                tmp.write_text(slide(s, w, h, i, len(slides), story, reel), encoding="utf-8")
                 pg.goto(tmp.as_uri()); pg.wait_for_load_state("networkidle")
                 pg.evaluate("document.fonts.ready")
                 over = pg.evaluate("(()=>{const c=document.querySelector('.corpo');return c.scrollHeight>c.clientHeight+2})()")

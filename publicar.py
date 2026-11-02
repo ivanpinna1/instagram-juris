@@ -8,8 +8,8 @@ Roda no GitHub Actions. Variáveis de ambiente:
   IG_API         opcional; padrão: https://graph.facebook.com/v26.0
   DRY_RUN=1      só mostra o que faria
 
-agenda.json: lista de {"id", "quando" (ISO com fuso), "tipo": "carrossel"|"story",
-                       "imagens": [caminhos no repositório], "legenda" (só carrossel)}
+agenda.json: lista de {"id", "quando" (ISO com fuso), "tipo": "carrossel"|"reel"|"story",
+                       "imagens": [caminhos] ou "video": caminho (reel), "legenda" (carrossel e reel)}
 publicados.json: {id: {"media_id", "em"}} — mantido pelo próprio script.
 """
 import json, os, sys, time, urllib.parse, urllib.request
@@ -41,8 +41,8 @@ def chamar(metodo, caminho, **params):
         raise RuntimeError(f"{metodo} {caminho}: HTTP {e.code} {corpo}") from None
 
 
-def aguardar(container):
-    for _ in range(30):
+def aguardar(container, tentativas=30):
+    for _ in range(tentativas):
         st = chamar("GET", container, fields="status_code").get("status_code")
         if st == "FINISHED":
             return
@@ -57,6 +57,11 @@ def url_img(caminho):
 
 
 def publicar(item):
+    if item["tipo"] == "reel":
+        c = chamar("POST", f"{USER}/media", media_type="REELS", video_url=url_img(item["video"]),
+                   caption=item.get("legenda", ""), share_to_feed="true")["id"]
+        aguardar(c, tentativas=72)  # vídeo: até 6 min de processamento
+        return chamar("POST", f"{USER}/media_publish", creation_id=c)["id"]
     imgs = [url_img(c) for c in item["imagens"]]
     if item["tipo"] == "story":
         c = chamar("POST", f"{USER}/media", image_url=imgs[0], media_type="STORIES")["id"]
@@ -87,9 +92,10 @@ def main():
         print("Faltam IG_TOKEN e/ou IG_USER_ID."); return 1
     falhas = 0
     for item in vencidos:
-        print(f"→ {item['id']} ({item['tipo']}, {len(item['imagens'])} imagem(ns))")
+        arqs = item.get("imagens") or [item["video"]]
+        print(f"→ {item['id']} ({item['tipo']}, {len(arqs)} arquivo(s))")
         if DRY:
-            for c in item["imagens"]:
+            for c in arqs:
                 print("   ", url_img(c))
             continue
         try:

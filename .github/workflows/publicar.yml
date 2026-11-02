@@ -29,10 +29,10 @@ jobs:
       - name: Registrar o que foi publicado
         if: always()
         run: |
-          if [ -n "$(git status --porcelain publicados.json)" ]; then
+          if [ -n "$(git status --porcelain publicados.json ultima_execucao.log)" ]; then
             git config user.name "publicador"
             git config user.email "publicador@users.noreply.github.com"
-            git add publicados.json
-            git commit -m "Registra publicações"
+            git add publicados.json ultima_execucao.log
+            git commit -m "Registra publicações [skip ci]"
             git push
           fi

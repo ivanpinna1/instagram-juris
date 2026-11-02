@@ -109,5 +109,24 @@ def main():
     return 1 if falhas else 0
 
 
+class _Dup:
+    """Escreve a saída no terminal e em ultima_execucao.log (gravado no repositório)."""
+    def __init__(self, *fs): self.fs = fs
+    def write(self, t):
+        t = t.replace(TOKEN, "***") if TOKEN else t
+        for f in self.fs: f.write(t)
+    def flush(self):
+        for f in self.fs: f.flush()
+
+
 if __name__ == "__main__":
-    sys.exit(main())
+    with open(RAIZ / "ultima_execucao.log", "w", encoding="utf-8") as log:
+        log.write(datetime.now(timezone.utc).isoformat() + "\n")
+        sys.stdout = sys.stderr = _Dup(sys.__stdout__, log)
+        try:
+            cod = main()
+        except Exception as e:
+            print("ERRO GERAL:", repr(e)); cod = 1
+        print("código de saída:", cod)
+        sys.stdout, sys.stderr = sys.__stdout__, sys.__stderr__
+    sys.exit(cod)

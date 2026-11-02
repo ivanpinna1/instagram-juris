@@ -1,12 +1,12 @@
-2026-11-02T20:03:44.952806+00:00
+2026-11-02T20:23:29.292142+00:00
 → 2026-11-03_ac2788-2026:carrossel (carrossel, 6 arquivo(s))
-   ERRO: POST 17841401897076656/media: HTTP 400 {"error":{"message":"Unsupported post request. Object with ID '17841401897076656' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https:\/\/developers.facebook.com\/docs\/graph-api","type":"GraphMethodException","code":100,"error_subcode":33,"fbtrace_id":"A4eZ7xgnbI16-XCgiq11wxa"}}
+   ERRO: POST 17841401897076656/media: HTTP 400 {"error":{"message":"Unsupported post request. Object with ID '17841401897076656' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https:\/\/developers.facebook.com\/docs\/graph-api","type":"GraphMethodException","code":100,"error_subcode":33,"fbtrace_id":"Ae1Kji_KGiVik77y03tm0SB"}}
 → 2026-11-03_ac2788-2026:reel (reel, 1 arquivo(s))
-   ERRO: POST 17841401897076656/media: HTTP 400 {"error":{"message":"Unsupported post request. Object with ID '17841401897076656' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https:\/\/developers.facebook.com\/docs\/graph-api","type":"GraphMethodException","code":100,"error_subcode":33,"fbtrace_id":"AGC_mBj_qAj303rjQJEpZrv"}}
+   ERRO: POST 17841401897076656/media: HTTP 400 {"error":{"message":"Unsupported post request. Object with ID '17841401897076656' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https:\/\/developers.facebook.com\/docs\/graph-api","type":"GraphMethodException","code":100,"error_subcode":33,"fbtrace_id":"AUP4UjGV00_NY2P4BV6h4Fs"}}
 --- diagnóstico ---
 OK  https://graph.facebook.com/v26.0 me {"id":"122099016051537058","name":"Publicador Ivan Pinna System User"}
 OK  https://graph.facebook.com/v26.0 me/accounts {"data":[]}
 ERR https://graph.facebook.com/v26.0 17841401897076656 400 {"error":{"message":"Unsupported get request. Object with ID '17841401897076656' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api","code":100,"type":"GraphMethodE
-ERR https://graph.instagram.com me 400 {"error":{"message":"Invalid OAuth access token - Cannot parse access token","type":"OAuthException","code":190,"fbtrace_id":"AE8afjExu3obWCSw0Sce7ay"}}
-ERR https://graph.instagram.com 17841401897076656 400 {"error":{"message":"Invalid OAuth access token - Cannot parse access token","type":"OAuthException","code":190,"fbtrace_id":"AjuAxUR8lSvAGbV0x2-SIky"}}
+ERR https://graph.instagram.com me 400 {"error":{"message":"Invalid OAuth access token - Cannot parse access token","type":"OAuthException","code":190,"fbtrace_id":"Aw5FJSyP3wEO-StXFGYq0NV"}}
+ERR https://graph.instagram.com 17841401897076656 400 {"error":{"message":"Invalid OAuth access token - Cannot parse access token","type":"OAuthException","code":190,"fbtrace_id":"A_1IJEfkC7xdwzxMbplSjDP"}}
 código de saída: 1

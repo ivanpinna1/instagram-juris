@@ -54,6 +54,30 @@ blockquote{font-family:PF;font-weight:600;font-size:CITApx;line-height:1.4}
 .servicos b{color:var(--gold);font-weight:600}
 """
 
+# Reel (9:16): letras maiores, logotipo mais próximo do conteúdo e zona segura do Instagram
+# (faixa inferior com legenda/@ e coluna direita com os botões ficam livres).
+CSS_REEL = """
+.logo{top:150px;width:364px}
+.corpo{top:480px;bottom:400px;left:110px;right:130px}
+.centro{left:130px}
+h1{font-size:REELCAPApx}
+h2{font-size:72px;margin-bottom:44px}
+p{font-size:REELTEXTOpx;margin-bottom:34px}
+blockquote{font-size:REELCITApx}
+.num,.tag{font-size:32px;margin-bottom:26px}
+.subt{font-size:38px;margin-top:44px}
+.fonte{font-size:33px;margin-top:46px}
+.aspas{font-size:240px;height:96px}
+.divisor{width:440px}
+.cta-reel .corpo{top:470px;bottom:auto}
+.cta-reel h1{font-size:84px}
+.icones{gap:80px;margin-top:44px}
+.icones svg{width:100px;height:100px}
+.icones div{font-size:26px}
+.servicos{font-size:34px;margin-top:38px}
+.foto{height:900px}
+"""
+
 ICONES = """<div class="icones">
 <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M12 20.5s-7.5-4.6-9.2-9.3C1.6 7.8 3.9 4.5 7.3 4.5c2 0 3.6 1.1 4.7 2.7 1.1-1.6 2.7-2.7 4.7-2.7 3.4 0 5.7 3.3 4.5 6.7-1.7 4.7-9.2 9.3-9.2 9.3z"/></svg>Curta</div>
 <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M6 3.5h12v17l-6-4.5-6 4.5z"/></svg>Salve</div>
@@ -82,7 +106,9 @@ def slide(s, w, h, idx, total, story, reel=False):
     if cta:
         v["TOPO"] = 270 if not story else 440
         v["BASE"] = v["FOTOH"] - 10
-    css = CSS
+    css = CSS + (CSS_REEL.replace("REELCAPApx", f'{s.get("tam_reel", 92)}px')
+                 .replace("REELTEXTOpx", f'{s.get("tam_texto_reel", 48)}px')
+                 .replace("REELCITApx", f'{s.get("tam_cit_reel", 56)}px') if reel else "")
     for k in ("LOGOTOP", "LOGOW", "FOTOH", "TOPO", "BASE", "CAPA", "TEXTO", "CITA", "W", "H"):
         css = css.replace(f"{k}px", f"{v[k]}px")
 
@@ -123,7 +149,7 @@ def slide(s, w, h, idx, total, story, reel=False):
     else:
         pe = ""
     return (f'<!doctype html><html><head><meta charset="utf-8"><style>{css}</style></head>'
-            f'<body>{foto}{cab}<div class="corpo{centro}">{c}</div>{pe}</body></html>')
+            f'<body class="{"cta-reel" if (reel and cta) else ""}">{foto}{cab}<div class="corpo{centro}">{c}</div>{pe}</body></html>')
 
 
 def render(post_json):
@@ -143,7 +169,11 @@ def render(post_json):
                 tmp.write_text(slide(s, w, h, i, len(slides), story, reel), encoding="utf-8")
                 pg.goto(tmp.as_uri()); pg.wait_for_load_state("networkidle")
                 pg.evaluate("document.fonts.ready")
-                over = pg.evaluate("(()=>{const c=document.querySelector('.corpo');return c.scrollHeight>c.clientHeight+2})()")
+                # ajusta o texto ao espaço: reduz as letras do conteúdo até caber (no máximo 30%)
+                over = pg.evaluate("""(()=>{const c=document.querySelector('.corpo');const els=[...c.querySelectorAll('*')];
+                  const base=els.map(e=>parseFloat(getComputedStyle(e).fontSize));let k=1;
+                  while(c.scrollHeight>c.clientHeight+2 && k>0.7){k-=0.03;els.forEach((e,i)=>e.style.fontSize=(base[i]*k)+'px');}
+                  return c.scrollHeight>c.clientHeight+2})()""")
                 if over:
                     print(f"AVISO: texto transborda em {nome} {i}", file=sys.stderr)
                 f = out / f"{nome}_{i:02d}.jpg"

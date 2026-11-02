@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-08_ac4523-2026",
+  "usa": [
+    "4523/2026|1ª Câmara"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Licitações",
+  "fonte": {
+    "acordao": "4523/2026",
+    "colegiado": "1ª Câmara",
+    "relator": "Walton Alencar Rodrigues",
+    "boletim": "Boletim de Jurisprudência nº 598",
+    "sessoes": "11 de agosto de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Diligência · Habilitação",
+      "titulo": "Documento juntado em diligência para provar **condição que já existia**: pode? Para o TCU, sim.",
+      "subtitulo": "Acórdão 4523/2026 – 1ª Câmara"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "O medo do “documento novo”",
+      "paragrafos": [
+        "Na habilitação ou no julgamento, falta um documento e a licitante é chamada em **diligência**.",
+        "Muitos agentes recusam a juntada, por entender que seria **documento novo** e quebraria a isonomia."
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "É lícita a admissão da juntada de documentos, em atendimento a diligência, durante as fases de classificação ou de habilitação, que venham a atestar condição pré-existente à abertura da sessão pública do certame (art. 64, inciso I, da Lei 14.133/2021), sem que isso represente afronta aos princípios da isonomia e da igualdade entre as licitantes.",
+      "fonte": "**TCU, Acórdão 4523/2026 – 1ª Câmara**, Rel. Min. Walton Alencar Rodrigues. Boletim de Jurisprudência nº 598 (sessões de 11/8/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "O que define é a condição",
+      "paragrafos": [
+        "O critério é se o documento comprova **condição preexistente** à abertura da sessão pública.",
+        "Se a condição já existia, juntar a prova depois, em diligência, **não ofende a isonomia** entre as licitantes (art. 64, I, da Lei 14.133/2021)."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Se faltar um documento, mas a condição **já existia** antes da sessão, peça ou aceite a diligência e junte a prova.",
+        "Inabilitação que recusa esse documento pode ser combatida em **recurso** com base neste precedente."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Esqueceu um documento na habilitação. Ainda dá para juntar? 📎\n\nNo Acórdão 4523/2026 – 1ª Câmara (Boletim de Jurisprudência nº 598), o TCU firmou que é lícita a juntada de documentos em diligência, nas fases de classificação ou de habilitação, quando atestam condição preexistente à abertura da sessão pública (art. 64, I, da Lei 14.133/2021), sem afronta à isonomia entre as licitantes.\n\nNa prática: o que importa é se a condição já existia. Se existia, a prova pode vir depois.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem cuida da habilitação.\n\n#licitações #licitacao #lei14133 #tcu #diligencia #habilitacao #formalismomoderado #direitoadministrativo #jurisprudencia",
+  "musica": "atlasaudio-corporate-ambient-625699.mp3"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-08_ac1753-2026",
+  "usa": [
+    "1753/2026|Plenário"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Contratos",
+  "fonte": {
+    "acordao": "1753/2026",
+    "colegiado": "Plenário",
+    "relator": "Augusto Nardes",
+    "boletim": "Informativo de Licitações e Contratos nº 531",
+    "sessoes": "30 de junho; 1º, 7 e 8 de julho de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Supervisão de obras · Aditivos",
+      "titulo": "Obra atrasou: a **supervisora** pode ter aditivos além de 25%? Para o TCU, não.",
+      "subtitulo": "Acórdão 1753/2026 – Plenário"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Supervisão que se estende",
+      "paragrafos": [
+        "Quando a obra atrasa, o contrato de **supervisão, fiscalização e gerenciamento** também se estende.",
+        "A dúvida: os aditivos da supervisora podem ultrapassar o **limite legal de 25%**? E quando ela tem direito a valores pela prorrogação?"
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "(...) não podem ser aditados além do limite legal de 25%, sob pena de afronta ao art. 125 da Lei 14.133/2021, ainda que tal aumento seja fruto de prorrogação de prazo na execução da obra supervisionada (...).",
+      "fonte": "**TCU, Acórdão 1753/2026 – Plenário**, Rel. Min. Augusto Nardes. Informativo de Licitações e Contratos nº 531 (sessões de 30/6 e 1º, 7 e 8/7/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "Quando há direito a mais valor",
+      "paragrafos": [
+        "O art. 124, § 2º, só se aplica se demonstrado que a supervisora **não concorreu para o atraso**, permaneceu **efetivamente mobilizada**, sem possibilidade de desmobilização, e que os custos foram **efetivamente suportados e comprovados**.",
+        "Se a remuneração está vinculada a **produtos ou marcos**, a mera prorrogação não justifica aumento sem incremento das entregas."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Para a supervisora: documente desde cedo a **mobilização mantida** e os **custos efetivos** do período adicional.",
+        "Alcançado o limite de 25%, a Administração deve buscar **nova contratação**, salvo desvantajosidade inequívoca e justificada."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Obra atrasou e a supervisão se estendeu. O aditivo pode passar de 25%? 📐\n\nNo Acórdão 1753/2026 – Plenário (Informativo de Licitações e Contratos nº 531), o TCU firmou, em consulta, que contratos de supervisão, fiscalização e gerenciamento de obras não podem ser aditados além de 25% (art. 125 da Lei 14.133/2021), ainda que o aumento decorra da prorrogação da obra, devendo-se buscar nova contratação, ressalvada desvantajosidade inequívoca e justificada.\n\nO art. 124, § 2º, só se aplica se a supervisora não concorreu para o atraso, permaneceu mobilizada e comprovar os custos efetivamente suportados.\n\nNa prática: documentação é tudo.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem atua em supervisão de obras.\n\n#licitações #licitacao #lei14133 #tcu #obraspublicas #aditivos #engenharia #contratosadministrativos #jurisprudencia",
+  "musica": "Four More Weeks - Vans in Japan.mp3"
+}

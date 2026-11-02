@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-10_ac1513-2026",
+  "usa": [
+    "1513/2026|Plenário"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Licitações",
+  "fonte": {
+    "acordao": "1513/2026",
+    "colegiado": "Plenário",
+    "relator": "Jhonatan de Jesus",
+    "boletim": "Boletim de Jurisprudência nº 589",
+    "sessoes": "9 e 10 de junho de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Seguro-garantia com retomada",
+      "titulo": "Seguro-garantia com cláusula de retomada **acima de 5%**? Só com motivação técnica.",
+      "subtitulo": "Acórdão 1513/2026 – Plenário"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Garantia mais cara",
+      "paragrafos": [
+        "Em obras, a Lei 14.133/2021 permite exigir **seguro-garantia com cláusula de retomada** (art. 102).",
+        "Há editais que elevam o percentual além de **5%** do valor inicial do contrato, sem explicar por quê."
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "É irregular a exigência de seguro-garantia com cláusula de retomada (art. 102 da Lei 14.133/2021) em montante acima de 5% sobre o valor inicial do contrato sem a devida motivação técnica (...).",
+      "fonte": "**TCU, Acórdão 1513/2026 – Plenário**, Rel. Min. Jhonatan de Jesus. Boletim de Jurisprudência nº 589 (sessões de 9 e 10/6/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "Até 10%, com análise prévia",
+      "paragrafos": [
+        "A majoração até o **limite legal de 10%** (art. 98) depende de motivação técnica com **análise prévia da complexidade do objeto e dos riscos** envolvidos.",
+        "Sem ela, há afronta ao art. 98 e aos princípios da transparência, motivação, segurança jurídica e razoabilidade."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Garantia acima de 5% encarece a proposta. Verifique se o processo traz a **análise de complexidade e riscos**.",
+        "Sem essa motivação, a exigência pode ser **impugnada** com base neste precedente."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Edital exige seguro-garantia com retomada acima de 5%? 🛡️\n\nNo Acórdão 1513/2026 – Plenário (Boletim de Jurisprudência nº 589), o TCU firmou que é irregular exigir seguro-garantia com cláusula de retomada (art. 102 da Lei 14.133/2021) acima de 5% do valor inicial do contrato sem motivação técnica, com análise prévia da complexidade do objeto e dos riscos, que justifique a majoração até o limite de 10% (art. 98).\n\nNa prática: percentual elevado sem essa análise é impugnável.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem executa obras públicas.\n\n#licitações #licitacao #lei14133 #tcu #segurogarantia #obraspublicas #garantia #direitoadministrativo #jurisprudencia",
+  "musica": "nastelbom-motivation-motivation-music-623757.mp3"
+}

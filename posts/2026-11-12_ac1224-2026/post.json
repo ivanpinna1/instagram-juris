@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-12_ac1224-2026",
+  "usa": [
+    "1224/2026|Plenário"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Licitações",
+  "fonte": {
+    "acordao": "1224/2026",
+    "colegiado": "Plenário",
+    "relator": "Marcos Bemquerer",
+    "boletim": "Boletim de Jurisprudência nº 585",
+    "sessoes": "12 e 13 de maio de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Terceirização · Planilha de custos",
+      "titulo": "Edital pode **recusar proposta** com salário e auxílio-alimentação abaixo do orçado? O TCU admite.",
+      "subtitulo": "Acórdão 1224/2026 – Plenário"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Piso na planilha",
+      "paragrafos": [
+        "Em serviços terceirizados com **dedicação exclusiva de mão de obra**, a disputa às vezes reduz salários e benefícios na planilha.",
+        "Pode o edital fixar um mínimo para esses itens?"
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "Nas licitações para contratação de serviços terceirizados com dedicação exclusiva de mão de obra, é lícito ao edital prever que somente serão aceitas propostas que adotarem na planilha de custos e formação de preços valor igual ou superior ao orçado pela Administração para a soma dos itens de salário e auxílio-alimentação (...).",
+      "fonte": "**TCU, Acórdão 1224/2026 – Plenário**, Rel. Min. Marcos Bemquerer. Boletim de Jurisprudência nº 585 (sessões de 12 e 13/5/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "A convenção paradigma",
+      "paragrafos": [
+        "Esses itens devem ser estimados com base na **convenção coletiva paradigma**: a que melhor se adequa à categoria que executará os serviços, considerada a **base territorial** de execução.",
+        "O fundamento citado foi o **art. 5º, caput e § 2º, do Decreto 12.174/2024**."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Confira se o orçamento usa a **convenção coletiva correta** para a categoria e o local de execução.",
+        "Se o edital prever esse mínimo, a planilha deve respeitar **salário + auxílio-alimentação** orçados; abaixo disso, a proposta pode ser recusada."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Proposta com salário abaixo do orçado pode ser recusada? 🧾\n\nNo Acórdão 1224/2026 – Plenário (Boletim de Jurisprudência nº 585), o TCU firmou que, em serviços terceirizados com dedicação exclusiva de mão de obra, é lícito o edital prever que só serão aceitas propostas com valor igual ou superior ao orçado para a soma de salário e auxílio-alimentação, estimados pela convenção coletiva paradigma da categoria e da base territorial (art. 5º do Decreto 12.174/2024).\n\nNa prática: confira a convenção usada no orçamento e respeite o mínimo na planilha.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem atua em terceirização.\n\n#licitações #licitacao #lei14133 #tcu #terceirizacao #planilhadecustos #convencaocoletiva #direitoadministrativo #jurisprudencia",
+  "musica": "litesaturation-corporate-109069.mp3"
+}

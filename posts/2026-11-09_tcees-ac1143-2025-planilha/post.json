@@ -1,0 +1,76 @@
+{
+  "id": "2026-11-09_tcees-ac1143-2025-planilha",
+  "usa": [
+    "TCE-ES Acórdão 1143/2025|Plenário|6c58f7"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCE-ES",
+  "fonte": {
+    "tribunal": "TCE-ES",
+    "acordao": "Acórdão TC-1143/2025",
+    "colegiado": "Plenário",
+    "relator": "Davi Diniz de Carvalho",
+    "boletim": "Informativo de Jurisprudência nº 137",
+    "sessoes": "19 de janeiro de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "TCE-ES · Planilha de preços",
+      "titulo": "Item **omitido na planilha** de preços leva à desclassificação? Não, se o erro for sanável.",
+      "subtitulo": "TCE-ES · Acórdão TC-1143/2025 – Plenário"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "O item esquecido",
+      "paragrafos": [
+        "Em licitação por **menor preço global**, a licitante deixa de lançar um **item** na planilha de preços.",
+        "A consequência costuma ser a desclassificação imediata."
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCE-ES decidiu",
+      "citacao": "Em licitação julgada pelo menor preço global, a omissão de item na planilha de preços não impõe a desclassificação da licitante quando decorrer de erro formal sanável e a correção não alterar o valor global ofertado (...).",
+      "fonte": "**TCE-ES, Acórdão TC-1143/2025 – Plenário**, Rel. Cons. Davi Diniz de Carvalho. Informativo de Jurisprudência nº 137 (publicado em 19/1/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "Formalismo moderado",
+      "paragrafos": [
+        "O Tribunal se apoiou no **formalismo moderado** e na **supremacia do interesse público**.",
+        "A condição é que a omissão seja **erro formal sanável** e que a correção **não altere o valor global** ofertado."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Se a sua proposta for desclassificada por item omitido, demonstre que a correção **mantém o preço global**.",
+        "Com isso, o precedente sustenta **recurso** contra a desclassificação."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Faltou um item na planilha. Proposta desclassificada? 📊\n\nNo Acórdão TC-1143/2025 – Plenário (Informativo de Jurisprudência nº 137), o TCE-ES firmou que, em licitação por menor preço global, a omissão de item na planilha não impõe a desclassificação quando decorrer de erro formal sanável e a correção não alterar o valor global ofertado, em observância ao formalismo moderado e à supremacia do interesse público.\n\nNa prática: o preço global é o limite da correção.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem monta planilhas.\n\n#licitações #licitacao #lei14133 #tcees #tribunaldecontas #espiritosanto #planilhadecustos #formalismomoderado #proposta #jurisprudencia",
+  "musica": "atlasaudio-chill-ambient-625687.mp3"
+}

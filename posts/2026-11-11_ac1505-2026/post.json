@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-11_ac1505-2026",
+  "usa": [
+    "1505/2026|Plenário"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Contratos",
+  "fonte": {
+    "acordao": "1505/2026",
+    "colegiado": "Plenário",
+    "relator": "Antonio Anastasia",
+    "boletim": "Boletim de Jurisprudência nº 589",
+    "sessoes": "9 e 10 de junho de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Pagamento · Regularidade fiscal",
+      "titulo": "Certidão vencida **não autoriza reter pagamento** por serviço já executado.",
+      "subtitulo": "Acórdão 1505/2026 – Plenário"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Pagamento travado",
+      "paragrafos": [
+        "Durante a execução, a contratada fica com alguma **pendência fiscal**.",
+        "A Administração, então, **retém o pagamento** de serviços já prestados ou de bens já entregues."
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "Verificada a irregular situação fiscal da contratada, é vedada a retenção de pagamento por serviço já executado ou fornecimento já entregue, sob pena de enriquecimento sem causa da Administração.",
+      "fonte": "**TCU, Acórdão 1505/2026 – Plenário**, Rel. Min. Antonio Anastasia. Boletim de Jurisprudência nº 589 (sessões de 9 e 10/6/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "Enriquecimento sem causa",
+      "paragrafos": [
+        "Se o serviço foi executado ou o bem foi entregue, a Administração **recebeu a contraprestação**.",
+        "Reter o pagamento nesse caso configura **enriquecimento sem causa** da Administração."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Teve o pagamento retido só por irregularidade fiscal? Cobre o valor com base neste precedente.",
+        "Ainda assim, **regularize a situação fiscal** o quanto antes: ela é condição para manter o contrato."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "A Administração pode reter o pagamento por certidão vencida? 💰\n\nNo Acórdão 1505/2026 – Plenário (Boletim de Jurisprudência nº 589), o TCU firmou que, verificada a irregular situação fiscal da contratada, é vedada a retenção de pagamento por serviço já executado ou fornecimento já entregue, sob pena de enriquecimento sem causa da Administração.\n\nNa prática: serviço prestado é serviço a ser pago, mas a regularidade fiscal deve ser restabelecida.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem tem contratos com o poder público.\n\n#licitações #licitacao #lei14133 #tcu #pagamento #regularidadefiscal #contratosadministrativos #direitoadministrativo #jurisprudencia",
+  "musica": "Arcadia - National Sweetheart.mp3"
+}

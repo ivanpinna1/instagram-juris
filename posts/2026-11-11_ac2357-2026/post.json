@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-11_ac2357-2026",
+  "usa": [
+    "2357/2026|1ª Câmara"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Licitações",
+  "fonte": {
+    "acordao": "2357/2026",
+    "colegiado": "1ª Câmara",
+    "relator": "Bruno Dantas",
+    "boletim": "Informativo de Licitações e Contratos nº 528",
+    "sessoes": "19, 26 e 27 de maio de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Obras · Inexequibilidade",
+      "titulo": "Edital de obra **sem critério de inexequibilidade** definido? Para o TCU, é irregular.",
+      "subtitulo": "Acórdão 2357/2026 – 1ª Câmara"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Regras que só aparecem depois",
+      "paragrafos": [
+        "Em licitações de obras e serviços de engenharia, a análise de **inexequibilidade** pode levar à desclassificação.",
+        "Quando o edital não diz **como** os preços serão analisados, o licitante não sabe a regra do jogo."
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "Nas licitações de obras e serviços de engenharia, a ausência, no edital, da forma de análise e julgamento dos preços ofertados para fins de avaliação de inexequibilidade, especialmente quanto à definição dos preços unitários relevantes, afronta o art. 59, § 3º, da Lei 14.133/2021 e o princípio da eficiência.",
+      "fonte": "**TCU, Acórdão 2357/2026 – 1ª Câmara**, Rel. Min. Bruno Dantas. Informativo de Licitações e Contratos nº 528 (sessões de 19, 26 e 27/5/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "Preços unitários relevantes",
+      "paragrafos": [
+        "O ponto central é a definição dos **preços unitários relevantes**, que o edital deve trazer.",
+        "Sem isso, há afronta ao **art. 59, § 3º, da Lei 14.133/2021** e ao princípio da **eficiência**."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Antes de ofertar, confira se o edital define a **forma de análise** da inexequibilidade e os itens relevantes.",
+        "Se não definir, cabe **impugnação**; e desclassificação por critério não previsto pode ser atacada em **recurso**."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Seu preço pode ser julgado inexequível por critério que o edital não trazia? 🏗️\n\nNo Acórdão 2357/2026 – 1ª Câmara (Informativo de Licitações e Contratos nº 528), o TCU firmou que, em obras e serviços de engenharia, a ausência no edital da forma de análise e julgamento dos preços para avaliar a inexequibilidade, especialmente quanto aos preços unitários relevantes, afronta o art. 59, § 3º, da Lei 14.133/2021 e o princípio da eficiência.\n\nNa prática: o edital tem de mostrar a régua antes da disputa.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem disputa obras públicas.\n\n#licitações #licitacao #lei14133 #tcu #inexequibilidade #obraspublicas #engenharia #direitoadministrativo #jurisprudencia",
+  "musica": "atlasaudio-chill-ambient-625687.mp3"
+}

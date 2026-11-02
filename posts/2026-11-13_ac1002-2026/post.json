@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-13_ac1002-2026",
+  "usa": [
+    "1002/2026|Plenário"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Licitações",
+  "fonte": {
+    "acordao": "1002/2026",
+    "colegiado": "Plenário",
+    "relator": "Augusto Nardes",
+    "boletim": "Informativo de Licitações e Contratos nº 526",
+    "sessoes": "22, 28 e 29 de abril de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Itens e lotes · Atestados",
+      "titulo": "Venceu vários lotes e agora precisa **somar atestados** de todos? Sem proporção, é irregular.",
+      "subtitulo": "Acórdão 1002/2026 – Plenário"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Exigência que cresce com a vitória",
+      "paragrafos": [
+        "Em licitações por **itens ou lotes**, há editais que exigem qualificação técnico-operacional **cumulativa**, conforme o número de lotes vencidos.",
+        "Quanto mais a empresa vence, mais atestados precisa ter, mesmo que cada lote seja simples."
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "Em licitações por itens ou lotes, é irregular a exigência de qualificação técnico-operacional de forma cumulativa em razão da quantidade de itens ou lotes em que as licitantes se sagrarem vencedoras, sem proporção com a dimensão e a complexidade do objeto a ser executado em cada item ou lote (...).",
+      "fonte": "**TCU, Acórdão 1002/2026 – Plenário**, Rel. Min. Augusto Nardes. Informativo de Licitações e Contratos nº 526 (sessões de 22, 28 e 29/4/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "Proporção ao objeto",
+      "paragrafos": [
+        "A exigência cumulativa sem proporção **restringe a competitividade** e prejudica a proposta mais vantajosa.",
+        "O TCU apontou afronta à **Súmula TCU 263** e aos **arts. 5º, 9º, I, a, e 67 da Lei 14.133/2021**."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Se o edital somar exigências por lote vencido sem relação com a dimensão de cada um, cabe **impugnação**.",
+        "Se for inabilitado por esse critério, o precedente sustenta **recurso**."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Ganhou vários lotes e agora precisa provar experiência somada de todos? 📦\n\nNo Acórdão 1002/2026 – Plenário (Informativo de Licitações e Contratos nº 526), o TCU firmou que, em licitações por itens ou lotes, é irregular exigir qualificação técnico-operacional cumulativa conforme a quantidade de lotes vencidos, sem proporção com a dimensão e a complexidade de cada um (Súmula TCU 263 e arts. 5º, 9º, I, a, e 67 da Lei 14.133/2021).\n\nNa prática: a exigência é impugnável.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem disputa licitações por lotes.\n\n#licitações #licitacao #lei14133 #tcu #habilitacao #qualificacaotecnica #atestadotecnico #direitoadministrativo #jurisprudencia",
+  "musica": "atlasaudio-corporate-upbeat-578426.mp3"
+}

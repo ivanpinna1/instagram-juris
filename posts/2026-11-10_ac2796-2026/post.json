@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-10_ac2796-2026",
+  "usa": [
+    "2796/2026|2ª Câmara"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Licitações",
+  "fonte": {
+    "acordao": "2796/2026",
+    "colegiado": "2ª Câmara",
+    "relator": "Jorge Oliveira",
+    "boletim": "Boletim de Jurisprudência nº 590",
+    "sessoes": "16 e 17 de junho de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Tecnologia · Certificação ambiental",
+      "titulo": "Exigir certificação **EPEAT** sem aceitar equivalentes? Para o TCU, é irregular.",
+      "subtitulo": "Acórdão 2796/2026 – 2ª Câmara"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Uma certificação só",
+      "paragrafos": [
+        "Em compras de **equipamentos de TI**, alguns editais exigem a certificação ambiental **EPEAT**.",
+        "Sem aceitar certificações equivalentes ou outros meios de prova, fornecedores com produtos conformes ficam de fora."
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "Em licitação para aquisição de equipamentos de TI, é irregular a exigência de certificação Electronic Product Environmental Assessment Tool (EPEAT) sem previsão de aceitação de certificações equivalentes ou outros meios de comprovação de conformidade ambiental e sem a devida justificativa técnica (...).",
+      "fonte": "**TCU, Acórdão 2796/2026 – 2ª Câmara**, Rel. Min. Jorge Oliveira. Boletim de Jurisprudência nº 590 (sessões de 16 e 17/6/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "Competitividade em jogo",
+      "paragrafos": [
+        "A exigência assim formulada **restringe indevidamente a competitividade**.",
+        "O TCU apontou afronta ao **art. 5º da Lei 14.133/2021** e ao **art. 37, inciso XXI, da Constituição Federal**."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Se o edital exigir EPEAT sem admitir equivalentes ou outros meios de comprovação, cabe **impugnação**.",
+        "Tenha em mãos a documentação de **conformidade ambiental** do seu produto para demonstrar a equivalência."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Edital de TI exige EPEAT e nada mais? 💻\n\nNo Acórdão 2796/2026 – 2ª Câmara (Boletim de Jurisprudência nº 590), o TCU firmou que, na compra de equipamentos de TI, é irregular exigir a certificação EPEAT sem aceitar certificações equivalentes ou outros meios de comprovação ambiental e sem justificativa técnica, por restringir indevidamente a competitividade (art. 5º da Lei 14.133/2021 e art. 37, XXI, da Constituição).\n\nNa prática: a cláusula é impugnável.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem fornece tecnologia.\n\n#licitações #licitacao #lei14133 #tcu #tecnologia #sustentabilidade #edital #direitoadministrativo #jurisprudencia",
+  "musica": "nastelbom-motivation-motivation-music-623757.mp3"
+}

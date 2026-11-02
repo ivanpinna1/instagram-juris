@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-13_ac1001-2026",
+  "usa": [
+    "1001/2026|Plenário"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Licitações",
+  "fonte": {
+    "acordao": "1001/2026",
+    "colegiado": "Plenário",
+    "relator": "Augusto Nardes",
+    "boletim": "Boletim de Jurisprudência nº 582",
+    "sessoes": "22 de abril de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Assistência técnica local",
+      "titulo": "Exigir **assistência técnica no local** já na habilitação? Para o TCU, é irregular.",
+      "subtitulo": "Acórdão 1001/2026 – Plenário"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Estrutura antes de vencer",
+      "paragrafos": [
+        "Alguns editais exigem, na **habilitação**, que o licitante já tenha **assistência técnica no local** do fornecimento.",
+        "Empresas de outras regiões ficam de fora antes mesmo de disputar."
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "É irregular a exigência, para fins de habilitação, de que o licitante disponha de assistência técnica no local onde será fornecido o bem ou serviço objeto da licitação. Tal exigência é cabível apenas ao licitante vencedor, no momento da contratação (...).",
+      "fonte": "**TCU, Acórdão 1001/2026 – Plenário**, Rel. Min. Augusto Nardes. Boletim de Jurisprudência nº 582 (sessões de 22/4/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "Na hora certa",
+      "paragrafos": [
+        "A exigência é cabível, mas **só ao vencedor**, no momento da contratação.",
+        "Assim, não se restringe indevidamente a competitividade nem se compromete a seleção da **proposta mais vantajosa**."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Se o edital exigir assistência técnica local na habilitação, cabe **impugnação** para deslocá-la à contratação.",
+        "Se vencer, prepare-se para **comprovar a estrutura** no momento de assinar o contrato."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Precisa ter assistência técnica na cidade antes de vencer? 🔧\n\nNo Acórdão 1001/2026 – Plenário (Boletim de Jurisprudência nº 582), o TCU firmou que é irregular exigir, na habilitação, que o licitante disponha de assistência técnica no local do fornecimento: a exigência cabe apenas ao vencedor, no momento da contratação, para não restringir indevidamente a competitividade.\n\nNa prática: a cláusula na habilitação é impugnável.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem fornece em outras regiões.\n\n#licitações #licitacao #lei14133 #tcu #habilitacao #assistenciatecnica #edital #direitoadministrativo #jurisprudencia",
+  "musica": "The Beast Within - The Soundings.mp3"
+}

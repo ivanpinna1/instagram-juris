@@ -22,7 +22,8 @@ Cada post = carrossel + Reel + story (o próprio Reel), no mesmo horário.
 2. Ver em `agenda.json` quais horários dos próximos 5 dias (a partir de amanhã, se hoje já passou
    das 20h) ainda não têm carrossel agendado.
 3. `python3 fila.py proximos <enunciados.tsv> --n 30` lista os candidatos, do mais recente para o
-   mais antigo, já filtrados (Informativos de Licitações e Contratos e, dos Boletins de
+   mais antigo **pela data da sessão** (enunciados novos que entrarem na base com a atualização
+   quinzenal do acervo passam automaticamente à frente dos antigos ainda não publicados), já filtrados (Informativos de Licitações e Contratos e, dos Boletins de
    Jurisprudência, só "Licitação" e "Contrato Administrativo") e sem acórdãos já usados.
    Escolher um enunciado por horário vago, preferindo os úteis a licitantes e contratados
    (habilitação, propostas, julgamento, impugnação, recursos, sanções, execução, pagamento,

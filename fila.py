@@ -30,11 +30,32 @@ def ano(x):
     return max(anos) if anos else "0"
 
 
+MESES = {m: i for i, m in enumerate(["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho",
+                                     "agosto", "setembro", "outubro", "novembro", "dezembro"], 1)}
+
+
+def data_sessao(x):
+    """Data da última sessão do enunciado, para ordenar do mais recente ao mais antigo.
+    Ex.: '22, 23, 29 e 30 de setembro de 2026' -> (2026, 9, 30). Sem data legível: (0, 0, 0)."""
+    t = x["sessoes"].lower().replace("º", "")
+    meses = [(MESES[m], pos) for m in MESES for pos in [t.find(m)] if pos >= 0]
+    anos = re.findall(r"(?:19|20)\d\d", t)
+    if not meses or not anos:
+        return (int(ano(x)), 0, 0)
+    mes, pos = max(meses, key=lambda z: z[1])
+    trecho = re.split(r";|\bde (?:" + "|".join(MESES) + r")\b", t[:pos])[-1]  # só os dias do último mês
+    dias = [int(d) for d in re.findall(r"\b(\d{1,2})\b", trecho)] or [0]
+    return (int(anos[-1]), mes, max(dias))
+
+
 def proximos(tsv, n):
     usados = set(carregar(USADOS, {}))
     linhas = list(csv.DictReader(open(tsv, encoding="utf-8"), delimiter="\t"))
     vistos, saida = set(), []
-    for idx in range(len(linhas) - 1, -1, -1):  # o arquivo está em ordem cronológica
+    # do mais recente para o mais antigo pela data da sessão (não pela posição no arquivo):
+    # enunciados novos que entrarem na base furam a fila automaticamente
+    ordem = sorted(range(len(linhas)), key=lambda i: (data_sessao(linhas[i]), i), reverse=True)
+    for idx in ordem:
         x = linhas[idx]
         if x["informativo"].startswith("BJ"):
             tema = re.sub(r"^\[[^\]]*\]\s*", "", x["contexto"]).split(".")[0]

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Fila editorial: escolhe os próximos acórdãos e agenda os posts gerados.
 
-  python3 fila.py proximos <enunciados.tsv> [--n 10]
+  python3 fila.py proximos <enunciados.tsv> [--n 10] [--tribunal TCU|TCE-ES]
       Lista (JSON) os próximos enunciados de licitações e contratos ainda não usados,
       do mais recente para o mais antigo, sem repetir acórdão.
   python3 fila.py agendar posts/<id> AAAA-MM-DDTHH:MM [--musicas <pasta>]
@@ -51,8 +51,11 @@ def data_sessao(x):
     return (int(anos[-1]), mes, max(dias))
 
 
-def proximos(tsv, n):
+def proximos(tsv, n, tribunal="TCU"):
+    """tribunal: TCU (padrão) ou sigla de tribunal de contas estadual (ex.: TCE-ES); as chaves de
+    outros tribunais levam o prefixo da sigla para não colidir com os números do TCU."""
     usados = set(carregar(USADOS, {}))
+    pref = "" if tribunal == "TCU" else tribunal + " "
     linhas = list(csv.DictReader(open(tsv, encoding="utf-8"), delimiter="\t"))
     vistos, saida = set(), []
     # do mais recente para o mais antigo pela data da sessão (não pela posição no arquivo):
@@ -60,11 +63,11 @@ def proximos(tsv, n):
     ordem = sorted(range(len(linhas)), key=lambda i: (data_sessao(linhas[i]), i), reverse=True)
     for idx in ordem:
         x = linhas[idx]
-        if x["informativo"].startswith("BJ"):
+        if tribunal == "TCU" and x["informativo"].startswith("BJ"):
             tema = re.sub(r"^\[[^\]]*\]\s*", "", x["contexto"]).split(".")[0]
             if tema not in TEMAS:
                 continue
-        k = chave(x["acordao"], x["colegiado"])
+        k = pref + chave(x["acordao"], x["colegiado"])
         if k in usados or k in vistos or not x["acordao"].strip():
             continue
         vistos.add(k)
@@ -142,7 +145,8 @@ if __name__ == "__main__":
     cmd = sys.argv[1]
     if cmd == "proximos":
         n = int(sys.argv[sys.argv.index("--n") + 1]) if "--n" in sys.argv else 10
-        proximos(sys.argv[2], n)
+        trib = sys.argv[sys.argv.index("--tribunal") + 1] if "--tribunal" in sys.argv else "TCU"
+        proximos(sys.argv[2], n, trib)
     elif cmd == "replanejar":
         replanejar()
     elif cmd == "agendar":

@@ -11,8 +11,17 @@ vai ao ar. Por isso as regras editoriais abaixo são obrigatórias.
 
 ## Meta de cada execução
 
-Manter a agenda preenchida **até 5 dias à frente** (3 posts por dia: 08:00, 13:00 e 20:00).
-Cada post = carrossel + Reel + story (o próprio Reel), no mesmo horário.
+Manter a agenda preenchida **até 5 dias à frente**. Cada post = carrossel + Reel + story (o
+próprio Reel), no mesmo horário. Horários (Brasília):
+
+- **TCU:** 08:00, 13:00 e 20:00 — base `references/tcu/enunciados.tsv`.
+- **TCE-ES:** 10:30 e 17:00 — base `references/tce-es/enunciados.tsv` da mesma página do acervo,
+  **só quando ela existir** (o Ivan salva os informativos do TCE-ES no acervo e o "atualize o
+  acervo" monta essa base). Enquanto não existir, deixe esses horários vagos, sem avisar.
+  Use `python3 fila.py proximos <base do TCE-ES> --tribunal TCE-ES` e, no `usa`, a chave com o
+  prefixo que o comando mostrar (ex.: `"TCE-ES 1234/2026|Plenário"`). Na capa, `tag` com o tema e
+  `subtitulo` "TCE-ES · Acórdão nº/ano – Colegiado"; fonte no padrão "TCE-ES, Acórdão nº/ano –
+  Colegiado, Rel. Cons. Fulano. Informativo de Jurisprudência nº X".
 
 ## Passo a passo
 

@@ -78,6 +78,26 @@ def publicar(item):
     return chamar("POST", f"{USER}/media_publish", creation_id=c)["id"]
 
 
+def diagnostico():
+    """Testa o token nos dois endereços da API e mostra quais contas ele enxerga (sem expor o token)."""
+    print("--- diagnóstico ---")
+    testes = [
+        ("https://graph.facebook.com/v26.0", "me", {"fields": "id,name"}),
+        ("https://graph.facebook.com/v26.0", "me/accounts", {"fields": "name,instagram_business_account{id,username}"}),
+        ("https://graph.facebook.com/v26.0", USER, {"fields": "id,username"}),
+        ("https://graph.instagram.com", "me", {"fields": "user_id,username,account_type"}),
+        ("https://graph.instagram.com", USER, {"fields": "id,username"}),
+    ]
+    for base, cam, par in testes:
+        par = dict(par, access_token=TOKEN)
+        url = f"{base}/{cam}?" + urllib.parse.urlencode(par)
+        try:
+            with urllib.request.urlopen(url, timeout=30) as r:
+                print("OK ", base, cam, r.read().decode()[:600])
+        except urllib.error.HTTPError as e:
+            print("ERR", base, cam, e.code, e.read().decode(errors="replace").replace(TOKEN, "***")[:300])
+
+
 def main():
     agenda = json.loads((RAIZ / "agenda.json").read_text(encoding="utf-8"))
     pub_f = RAIZ / "publicados.json"
@@ -106,6 +126,8 @@ def main():
         except Exception as e:
             falhas += 1
             print(f"   ERRO: {e}")
+    if falhas:
+        diagnostico()
     return 1 if falhas else 0
 
 

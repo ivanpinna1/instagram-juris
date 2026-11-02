@@ -1,5 +1,9 @@
 # Rotina diária de reposição — posts de jurisprudência (@ivan.pinna)
 
+Esta rotina roda nos dias úteis às 10h23 e também logo após cada "atualize o acervo" do
+Consultor Jurídico (a skill dispara a tarefa agendada), para que a jurisprudência nova seja
+publicada já nos próximos horários.
+
 Este arquivo orienta a tarefa agendada que mantém a agenda abastecida. O publicador
 (`publicar.py`, via GitHub Actions) publica sozinho, às 8h, 13h e 20h (Brasília), tudo o que
 estiver em `agenda.json` na branch `main`. **Não há aprovação manual**: o que entra na `main`
@@ -35,6 +39,12 @@ Cada post = carrossel + Reel + story (o próprio Reel), no mesmo horário.
 5. `python3 fila.py agendar posts/<pasta> <AAAA-MM-DDTHH:MM> --musicas <pasta das músicas>`
    para cada post. Isso gera as telas, o Reel com música sorteada e agenda carrossel, Reel e
    story. Conferir as capas geradas (e o aviso de texto transbordando, se houver).
+5-A. **Jurisprudência nova fura a fila.** Compare os candidatos de `fila.py proximos` com os posts
+   já agendados e ainda não publicados: todo enunciado **mais recente** (pela data da sessão) do
+   que o mais antigo desses posts deve virar post agora, mesmo que não haja horário vago —
+   agende-o nos horários seguintes ao último da agenda. Depois rode `python3 fila.py replanejar`:
+   ele redistribui os posts não publicados, do mais recente para o mais antigo, pelos horários já
+   reservados (os mais novos saem primeiro; nada é descartado).
 6. Commitar direto na `main` e dar push (antes, `git pull --rebase`, pois o publicador também
    grava `publicados.json` e `ultima_execucao.log`).
 7. Ler `ultima_execucao.log` da `main`: se a última execução falhou, relatar o erro ao Ivan

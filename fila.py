@@ -7,6 +7,9 @@
   python3 fila.py agendar posts/<id> AAAA-MM-DDTHH:MM [--musicas <pasta>]
       Gera as telas e o Reel (música sorteada) e agenda carrossel + Reel + story (o próprio Reel) no mesmo horário
       (Brasília). Horários padrão do dia: 08:00, 13:00 e 20:00. Marca os acórdãos como usados.
+  python3 fila.py replanejar
+      Reordena os posts ainda não publicados pelos horários reservados, do enunciado mais
+      recente para o mais antigo (jurisprudência nova passa à frente).
 """
 import csv, json, re, subprocess, sys
 from pathlib import Path
@@ -101,11 +104,47 @@ def agendar(pasta, quando, musicas=None):
     print(f"agendado {post['id']} para {quando}")
 
 
+def replanejar(folga_min=20):
+    """Redistribui os posts ainda não publicados pelos horários já reservados na agenda,
+    do enunciado mais recente para o mais antigo. Assim, jurisprudência nova recém-agendada
+    passa à frente dos posts antigos que ainda não saíram (nada é descartado)."""
+    from datetime import datetime, timedelta, timezone
+    agenda = carregar(AGENDA, [])
+    publicados = carregar(RAIZ / "publicados.json", {})
+    limite = datetime.now(timezone.utc) + timedelta(minutes=folga_min)
+    futuros = {}
+    for i in agenda:
+        pid = i["id"].split(":")[0]
+        if i["id"] in publicados or datetime.fromisoformat(i["quando"]) <= limite:
+            futuros.pop(pid, None); futuros.setdefault("_travados", set()).add(pid); continue
+        if pid not in futuros.get("_travados", set()):
+            futuros.setdefault(pid, i["quando"])
+    futuros.pop("_travados", None)
+    if not futuros:
+        print("nada a replanejar"); return
+    def data_post(pid):
+        f = json.loads((RAIZ / "posts" / pid / "post.json").read_text(encoding="utf-8")).get("fonte", {})
+        return data_sessao({"sessoes": f.get("sessoes", ""), "acordao": f.get("acordao", "")})
+    horarios = sorted(set(futuros.values()))
+    ordem = sorted(futuros, key=data_post, reverse=True)
+    novo = dict(zip(ordem, horarios))
+    for i in agenda:
+        pid = i["id"].split(":")[0]
+        if pid in novo:
+            i["quando"] = novo[pid]
+    agenda.sort(key=lambda i: i["quando"])
+    AGENDA.write_text(json.dumps(agenda, ensure_ascii=False, indent=2), encoding="utf-8")
+    for pid in ordem:
+        print(novo[pid][:16], pid)
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1]
     if cmd == "proximos":
         n = int(sys.argv[sys.argv.index("--n") + 1]) if "--n" in sys.argv else 10
         proximos(sys.argv[2], n)
+    elif cmd == "replanejar":
+        replanejar()
     elif cmd == "agendar":
         mus = sys.argv[sys.argv.index("--musicas") + 1] if "--musicas" in sys.argv else None
         agendar(sys.argv[2], sys.argv[3], mus)

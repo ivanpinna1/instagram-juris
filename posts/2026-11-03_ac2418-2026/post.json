@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-03_ac2418-2026",
+  "usa": [
+    "2418/2026|Plenário"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Licitações",
+  "fonte": {
+    "acordao": "2418/2026",
+    "colegiado": "Plenário",
+    "relator": "Benjamin Zymler",
+    "boletim": "Boletim de Jurisprudência nº 602",
+    "sessoes": "8 e 9 de setembro de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Qualificação técnica",
+      "titulo": "Dá para usar o **atestado de outra empresa** só porque os sócios são os mesmos?",
+      "subtitulo": "Acórdão 2418/2026 – Plenário"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Empresas do mesmo grupo",
+      "paragrafos": [
+        "É comum a licitante tentar comprovar a **qualificação técnico-operacional** com atestados emitidos em nome de **outra pessoa jurídica**, alegando que as empresas têm **sócios em comum**.",
+        "O TCU analisou se essa ligação societária basta para aproveitar a experiência da outra empresa."
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "É irregular o aproveitamento, para fins de qualificação técnico-operacional, de atestados emitidos em nome de pessoa jurídica diversa da licitante sem demonstração da efetiva transferência da capacidade técnico-operacional neles certificada, não sendo suficiente, para tanto, a mera existência de sócios comuns entre as empresas.",
+      "fonte": "**TCU, Acórdão 2418/2026 – Plenário**, Rel. Min. Benjamin Zymler. Boletim de Jurisprudência nº 602 (sessões de 8 e 9/9/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "Por que não basta?",
+      "paragrafos": [
+        "A capacidade **técnico-operacional** pertence à **empresa** que executou o serviço, e não aos seus sócios.",
+        "Por isso, o atestado de outra pessoa jurídica só aproveita à licitante se houver **demonstração da efetiva transferência** dessa capacidade."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Antes de usar atestado de empresa coligada, reúna prova da **efetiva transferência** da capacidade técnico-operacional para a licitante.",
+        "Sem essa prova, a inabilitação tende a ser mantida. E, se for o concorrente quem faz isso, o precedente sustenta o seu **recurso**."
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Atestado de outra empresa vale só porque os sócios são os mesmos? 🤔\n\nNo Acórdão 2418/2026 – Plenário (Boletim de Jurisprudência nº 602), o TCU firmou que é irregular aproveitar, para a qualificação técnico-operacional, atestados emitidos em nome de pessoa jurídica diversa da licitante sem demonstrar a efetiva transferência da capacidade técnico-operacional — e que a mera existência de sócios comuns não basta.\n\nNa prática: atestado de empresa coligada exige prova da transferência da capacidade; sem ela, a inabilitação se sustenta.\n\n👉 Curta, salve e compartilhe com quem cuida da habilitação.\n\n#licitações #licitacao #lei14133 #tcu #direitoadministrativo #contratosadministrativos #jurisprudencia #habilitacao #atestadotecnico #qualificacaotecnica",
+  "musica": "atlasaudio-corporate-ambient-625699.mp3"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-03_ac5037-2026",
+  "usa": [
+    "5037/2026|2ª Câmara"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Licitações",
+  "fonte": {
+    "acordao": "5037/2026",
+    "colegiado": "2ª Câmara",
+    "relator": "Jorge Oliveira",
+    "boletim": "Boletim de Jurisprudência nº 606",
+    "sessoes": "6 e 7 de outubro de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Gerenciamento de frota",
+      "titulo": "Taxa de administração **zero ou negativa** em gestão de frota é regular?",
+      "subtitulo": "Acórdão 5037/2026 – 2ª Câmara"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Rede credenciada de oficinas",
+      "paragrafos": [
+        "Nas licitações de **gerenciamento de frota** com manutenção por **rede credenciada**, é comum a disputa terminar com **taxa de administração zero ou negativa**.",
+        "Surge a dúvida: essa proposta é exequível? E o que impede a gerenciadora de compensar a taxa cobrando mais das oficinas?"
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "Em licitações que tenham por objeto o gerenciamento de frota com manutenção de veículos por meio de rede credenciada, é regular: i) permitir a apresentação de proposta de preço com taxa de administração zero ou negativa (...); e ii) exigir que a contratada (gerenciadora) repasse às oficinas credenciadas percentual mínimo dos valores pagos pela Administração (...).",
+      "fonte": "**TCU, Acórdão 5037/2026 – 2ª Câmara**, Rel. Min. Jorge Oliveira. Boletim de Jurisprudência nº 606 (sessões de 6 e 7/10/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "Por que é regular?",
+      "paragrafos": [
+        "A remuneração da gerenciadora **não se restringe à taxa de administração**: ela também cobra dos **estabelecimentos credenciados** e obtém **rendimentos financeiros** sobre os repasses até o pagamento à rede.",
+        "Já o **repasse mínimo** às oficinas limita a chamada **taxa secundária**, para que a taxa nula ou negativa não seja compensada com reflexo nos preços finais."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Para a **gerenciadora**, a taxa zero ou negativa é admitida, mas o edital pode impor **percentual mínimo de repasse** às oficinas.",
+        "Para a **rede credenciada**, essa cláusula é uma proteção contra comissões excessivas cobradas pela gerenciadora."
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Taxa de administração zero ou negativa em gestão de frota: pode? 🚗\n\nNo Acórdão 5037/2026 – 2ª Câmara (Boletim de Jurisprudência nº 606), o TCU considerou regular, nas licitações de gerenciamento de frota com manutenção por rede credenciada, admitir proposta com taxa de administração zero ou negativa, pois a remuneração da gerenciadora também vem das cobranças aos credenciados e dos rendimentos financeiros sobre os repasses.\n\nO Tribunal também considerou regular exigir que a gerenciadora repasse às oficinas um percentual mínimo dos valores pagos pela Administração, limitando a taxa secundária.\n\n👉 Curta, salve e compartilhe com quem atua com frotas e órgãos públicos.\n\n#licitações #licitacao #lei14133 #tcu #direitoadministrativo #contratosadministrativos #jurisprudencia #gestaodefrotas #taxadeadministracao",
+  "musica": "nastelbom-motivation-motivation-music-623757.mp3"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-07_ac2218-2026",
+  "usa": [
+    "2218/2026|Plenário"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Licitações",
+  "fonte": {
+    "acordao": "2218/2026",
+    "colegiado": "Plenário",
+    "relator": "Jhonatan de Jesus",
+    "boletim": "Informativo de Licitações e Contratos nº 534",
+    "sessoes": "11, 18 e 19 de agosto de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Consórcios · Habilitação",
+      "titulo": "Consorciada excluída durante a licitação: o consórcio **pode seguir**? Depende do que restou.",
+      "subtitulo": "Acórdão 2218/2026 – Plenário"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Consórcio que perde um integrante",
+      "paragrafos": [
+        "Durante a licitação, uma das empresas de um **consórcio** é excluída, e as demais pretendem seguir no certame.",
+        "O consórcio deve ser inabilitado? E pode recompor depois a qualificação técnica?"
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "A exclusão de empresa consorciada no curso da licitação não acarreta, por si só, a inabilitação do consórcio, desde que a composição remanescente continue a atender, por meios próprios e com base em acervo documental preexistente, aos requisitos do edital.",
+      "fonte": "**TCU, Acórdão 2218/2026 – Plenário**, Rel. Min. Jhonatan de Jesus. Informativo de Licitações e Contratos nº 534 (sessões de 11, 18 e 19/8/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "O limite: vínculo posterior",
+      "paragrafos": [
+        "Declarações de disponibilidade ou **contratos futuros** com profissionais que só tinham vínculo com a consorciada excluída **não são simples confirmação de acervo**.",
+        "São **constituição posterior de vínculo**, que deveria ter sido demonstrado no momento próprio da habilitação."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Ao formar consórcio, avalie se as empresas remanescentes atenderiam ao edital **por meios próprios**, caso alguma consorciada saia.",
+        "Profissionais vinculados só à empresa excluída **não podem ser aproveitados** por vínculo firmado depois da habilitação."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Uma consorciada saiu no meio da licitação. O consórcio está fora? 🤝\n\nNo Acórdão 2218/2026 – Plenário (Informativo de Licitações e Contratos nº 534), o TCU firmou que a exclusão de consorciada não acarreta, por si só, a inabilitação do consórcio, desde que as remanescentes continuem a atender ao edital por meios próprios e com acervo documental preexistente.\n\nMas declarações de disponibilidade ou contratos futuros com profissionais que só tinham vínculo com a excluída configuram constituição posterior de vínculo, que deveria ter sido demonstrado na habilitação.\n\nNa prática: o consórcio só segue com o que já tinha.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem participa de consórcios.\n\n#licitações #licitacao #lei14133 #tcu #consorcio #habilitacao #qualificacaotecnica #direitoadministrativo #jurisprudencia",
+  "musica": "Beast Mode - The Soundings.mp3"
+}

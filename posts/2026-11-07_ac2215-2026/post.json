@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-07_ac2215-2026",
+  "usa": [
+    "2215/2026|Plenário"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Licitações",
+  "fonte": {
+    "acordao": "2215/2026",
+    "colegiado": "Plenário",
+    "relator": "Antonio Anastasia",
+    "boletim": "Boletim de Jurisprudência nº 599",
+    "sessoes": "18 e 19 de agosto de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Atestados de capacidade técnica",
+      "titulo": "Edital pode aceitar atestados **só de certos tipos de emissor**? Sem justificativa técnica, não.",
+      "subtitulo": "Acórdão 2215/2026 – Plenário"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Atestado recusado pelo emissor",
+      "paragrafos": [
+        "Há editais que restringem os **emissores de atestados** de capacidade técnica a determinados **segmentos econômicos**.",
+        "Assim, uma experiência real pode ser recusada só por causa da **natureza jurídica** ou do **ramo** de quem a atesta."
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "É irregular restringir, quando não tecnicamente justificado, os possíveis emissores de atestados de capacidade técnica a determinados segmentos econômicos, por afronta aos princípios da impessoalidade e da competitividade (...).",
+      "fonte": "**TCU, Acórdão 2215/2026 – Plenário**, Rel. Min. Antonio Anastasia. Boletim de Jurisprudência nº 599 (sessões de 18 e 19/8/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "O que importa é a experiência",
+      "paragrafos": [
+        "A qualificação operacional deve ser aferida por **parâmetros objetivos** ligados à **experiência pregressa** da licitante e à **complexidade do objeto**.",
+        "E não pela natureza jurídica ou pelo ramo de atuação do **emissor** do atestado."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Edital que limite os emissores de atestados sem justificativa técnica pode ser **impugnado**.",
+        "Se o seu atestado for recusado só por causa de quem o emitiu, o precedente sustenta **recurso** contra a inabilitação."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Seu atestado foi recusado por causa de quem o emitiu? 📄\n\nNo Acórdão 2215/2026 – Plenário (Boletim de Jurisprudência nº 599), o TCU firmou que é irregular restringir, sem justificativa técnica, os emissores de atestados de capacidade técnica a determinados segmentos econômicos, por afronta à impessoalidade e à competitividade.\n\nA qualificação operacional deve ser aferida pela experiência pregressa da licitante e pela complexidade do objeto, não pela natureza jurídica ou pelo ramo do emissor.\n\nNa prática: cláusula assim é impugnável, e a inabilitação por esse motivo é recorrível.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem cuida da habilitação.\n\n#licitações #licitacao #lei14133 #tcu #habilitacao #atestadotecnico #qualificacaotecnica #direitoadministrativo #jurisprudencia",
+  "musica": "Man Versus Tank - The Soundings.mp3"
+}

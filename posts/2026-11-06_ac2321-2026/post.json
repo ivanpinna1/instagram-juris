@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-06_ac2321-2026",
+  "usa": [
+    "2321/2026|Plenário"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Licitações",
+  "fonte": {
+    "acordao": "2321/2026",
+    "colegiado": "Plenário",
+    "relator": "Jorge Oliveira",
+    "boletim": "Boletim de Jurisprudência nº 600",
+    "sessoes": "25 e 26 de agosto de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Conflito de interesses",
+      "titulo": "Empresa do grupo de quem **assessora as licitações** do órgão pode disputá-las? Para o TCU, não.",
+      "subtitulo": "Acórdão 2321/2026 – Plenário"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Assessoria e disputa no mesmo grupo",
+      "paragrafos": [
+        "Órgãos e entidades contratam empresas para **apoio técnico** na condução de seus processos licitatórios.",
+        "A dúvida: uma empresa do **mesmo grupo econômico** dessa assessoria pode participar das licitações do órgão?"
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "Configura impedimento à participação em licitação, por conflito de interesses, o fato de a licitante integrar o mesmo grupo econômico de sociedade empresária que presta apoio técnico ao órgão ou à entidade promotora do certame em atividades relacionadas à condução de processos licitatórios (...).",
+      "fonte": "**TCU, Acórdão 2321/2026 – Plenário**, Rel. Min. Jorge Oliveira. Boletim de Jurisprudência nº 600 (sessões de 25 e 26/8/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "Vedação objetiva",
+      "paragrafos": [
+        "Fundamentos: **arts. 9º, §§ 1º e 2º, e 14, inciso IV, da Lei 14.133/2021**.",
+        "O impedimento independe de prova de **favorecimento, fraude ou vantagem efetiva** e da atuação dos terceirizados em atos específicos do certame: a vedação é **objetiva e preventiva**."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Antes de disputar, verifique se alguma empresa do seu **grupo econômico** presta apoio técnico em licitações ao órgão.",
+        "Se um concorrente estiver nessa situação, o precedente fundamenta **impugnação ou recurso** para afastá-lo."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Empresa do mesmo grupo da assessoria de licitações do órgão pode disputar o certame? ⚖️\n\nNo Acórdão 2321/2026 – Plenário (Boletim de Jurisprudência nº 600), o TCU firmou que há impedimento por conflito de interesses quando a licitante integra o mesmo grupo econômico de empresa que presta apoio técnico ao órgão na condução de licitações (arts. 9º, §§ 1º e 2º, e 14, IV, da Lei 14.133/2021).\n\nA vedação é objetiva e preventiva: não depende de prova de favorecimento, fraude ou vantagem efetiva.\n\nNa prática: confira os vínculos do seu grupo antes de participar, e os dos concorrentes antes de recorrer.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem participa de licitações.\n\n#licitações #licitacao #lei14133 #tcu #conflitodeinteresses #habilitacao #compliance #direitoadministrativo #jurisprudencia",
+  "musica": "atlasaudio-corporate-ambient-625699.mp3"
+}

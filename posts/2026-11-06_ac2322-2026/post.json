@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-06_ac2322-2026",
+  "usa": [
+    "2322/2026|Plenário"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Licitações",
+  "fonte": {
+    "acordao": "2322/2026",
+    "colegiado": "Plenário",
+    "relator": "Antonio Anastasia",
+    "boletim": "Boletim de Jurisprudência nº 600",
+    "sessoes": "25 e 26 de agosto de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Terceirização · Salários",
+      "titulo": "Edital pode fixar **salário acima do piso** da convenção coletiva? O TCU admite, com motivação.",
+      "subtitulo": "Acórdão 2322/2026 – Plenário"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Piso não é teto",
+      "paragrafos": [
+        "Em serviços continuados com **dedicação exclusiva de mão de obra**, os salários costumam seguir os **pisos das convenções coletivas**.",
+        "Mas há objetos que exigem profissionais com **qualificação superior** à usual."
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "Em licitações para contratação de serviços continuados com dedicação exclusiva de mão de obra, é legítima a fixação de salários superiores aos pisos estabelecidos em convenções coletivas de trabalho quando as características específicas do objeto evidenciarem a necessidade de profissionais com qualificação superior à ordinariamente exigida (...).",
+      "fonte": "**TCU, Acórdão 2322/2026 – Plenário**, Rel. Min. Antonio Anastasia. Boletim de Jurisprudência nº 600 (sessões de 25 e 26/8/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "Em que condições?",
+      "paragrafos": [
+        "A medida deve ser **tecnicamente motivada**, e os valores devem estar amparados em **referenciais adequados** à realidade da contratação.",
+        "Pode servir para **prevenir riscos** à execução, sem exigir a prévia ocorrência de falhas, evasão de profissionais, vacâncias prolongadas ou alta rotatividade."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Se o edital fixar salários acima do piso, a planilha da proposta deve **respeitar esses valores**.",
+        "Se a fixação parecer desproporcional, verifique se há **motivação técnica e referenciais** no processo; sem eles, a cláusula pode ser **impugnada**."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "O edital pode exigir salário acima do piso da convenção coletiva? 💼\n\nNo Acórdão 2322/2026 – Plenário (Boletim de Jurisprudência nº 600), o TCU firmou que, em serviços continuados com dedicação exclusiva de mão de obra, é legítimo fixar salários superiores aos pisos das convenções quando o objeto exigir profissionais de qualificação superior, desde que a medida seja tecnicamente motivada e amparada em referenciais adequados.\n\nA fixação pode servir para prevenir riscos à execução, sem necessidade de falhas, evasão ou rotatividade anteriores.\n\nNa prática: sem motivação técnica e referenciais no processo, a exigência é impugnável.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem atua em terceirização.\n\n#licitações #licitacao #lei14133 #tcu #terceirizacao #maodeobra #convencaocoletiva #contratosadministrativos #direitoadministrativo #jurisprudencia",
+  "musica": "Standoff - Density & Time.mp3"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-04_ac2638-2026",
+  "usa": [
+    "2638/2026|Plenário"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Contratos",
+  "fonte": {
+    "acordao": "2638/2026",
+    "colegiado": "Plenário",
+    "relator": "Jorge Oliveira",
+    "boletim": "Informativo de Licitações e Contratos nº 537",
+    "sessoes": "22, 23, 29 e 30 de setembro de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Aditivos e jogo de planilha",
+      "titulo": "Aditivo pode **reduzir o desconto** obtido na licitação? Para o TCU, não.",
+      "subtitulo": "Acórdão 2638/2026 – Plenário"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "O desconto que encolhe",
+      "paragrafos": [
+        "Em contratos com planilha orçamentária, os **aditivos** podem alterar quantitativos e mexer na relação entre o preço contratado e o **sistema de referência**.",
+        "Se crescem justamente os itens com preço acima do referencial, o **desconto global** da licitação diminui: é o chamado **jogo de planilha**."
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "(...) a diferença percentual entre o valor global do contrato e o obtido a partir dos custos unitários do sistema de referência utilizado não poderá ser reduzida em favor do contratado em decorrência de aditamentos que modifiquem a planilha orçamentária.",
+      "fonte": "**TCU, Acórdão 2638/2026 – Plenário**, Rel. Min. Jorge Oliveira. Informativo de Licitações e Contratos nº 537 (sessões de 22, 23, 29 e 30/9/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "E se a contratada prometer não pedir?",
+      "paragrafos": [
+        "Para o TCU, o **compromisso unilateral** da contratada de não pleitear acréscimos nos itens com preço acima do referencial **não afasta** o dever da Administração.",
+        "Cabe à Administração **assegurar a preservação do desconto global** originalmente obtido na licitação."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Nos aditivos de quantitativos, espere que a Administração confira se o **desconto global** em relação ao referencial se mantém.",
+        "Aditivo que reduza esse desconto em favor da contratada contraria o entendimento do TCU. Por isso, convém formular a proposta com **preços unitários equilibrados** desde o início."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Aditivo pode reduzir o desconto que a empresa ofereceu na licitação? 🤔\n\nNo Acórdão 2638/2026 – Plenário (Informativo de Licitações e Contratos nº 537), o TCU firmou que, para evitar o jogo de planilha, a diferença percentual entre o valor global do contrato e o obtido pelos custos unitários do sistema de referência não pode ser reduzida em favor do contratado por aditamentos que modifiquem a planilha.\n\nE mais: o compromisso unilateral da contratada de não pedir acréscimos nos itens com preço acima do referencial não afasta o dever da Administração de preservar o desconto global da licitação.\n\nNa prática: proposta com preços unitários equilibrados evita problemas na hora dos aditivos.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem executa contratos de obras.\n\n#licitações #licitacao #lei14133 #tcu #aditivos #jogodeplanilha #obraspublicas #contratosadministrativos #direitoadministrativo #jurisprudencia",
+  "musica": "Ascension - National Sweetheart.mp3"
+}

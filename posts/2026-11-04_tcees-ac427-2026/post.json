@@ -1,0 +1,76 @@
+{
+  "id": "2026-11-04_tcees-ac427-2026",
+  "usa": [
+    "TCE-ES Acórdão 427/2026|Plenário|8d1b26"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCE-ES",
+  "fonte": {
+    "tribunal": "TCE-ES",
+    "acordao": "Acórdão TC-427/2026",
+    "colegiado": "Plenário",
+    "relator": "Davi Diniz de Carvalho",
+    "boletim": "Informativo de Jurisprudência nº 138",
+    "sessoes": "22 de junho de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "TCE-ES · Julgamento da proposta",
+      "titulo": "Produto fora da especificação essencial: dá para **trocar por diligência**? Para o TCE-ES, não.",
+      "subtitulo": "TCE-ES · Acórdão TC-427/2026 – Plenário"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Produto desconforme",
+      "paragrafos": [
+        "Às vezes, depois de aceita a proposta, descobre-se que o produto ofertado **não atende a especificação técnica essencial** do edital.",
+        "A licitante, então, tenta **substituir o produto** por meio de diligência, mantendo o preço."
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCE-ES decidiu",
+      "citacao": "A desconformidade do produto ofertado com especificação técnica essencial do edital é vício insanável e autoriza a Administração a revisar o julgamento da proposta no exercício da autotutela. A diligência não pode ser utilizada para substituir o produto originalmente ofertado, ainda que mantido o preço, por configurar alteração substancial da proposta.",
+      "fonte": "**TCE-ES, Acórdão TC-427/2026 – Plenário**, Rel. Cons. Davi Diniz de Carvalho. Informativo de Jurisprudência nº 138 (publicado em 22/6/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "Autotutela",
+      "paragrafos": [
+        "Trocar o produto é **alteração substancial** da proposta, e não simples correção.",
+        "Segundo o Tribunal, diligências e análise anterior favorável **não impedem** a reavaliação, quando elementos técnicos revelam a desconformidade."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Confira a **aderência do produto** a cada especificação essencial antes de ofertar: não haverá chance de trocá-lo depois.",
+        "Se o concorrente vencer com produto desconforme, o precedente sustenta pedido de **revisão do julgamento**, mesmo após a aceitação."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Produto ofertado não atende a especificação essencial. Dá para trocar? 🔧\n\nNo Acórdão TC-427/2026 – Plenário (Informativo de Jurisprudência nº 138), o TCE-ES firmou que essa desconformidade é vício insanável e autoriza a Administração a revisar o julgamento da proposta, e que a diligência não pode servir para substituir o produto, ainda que mantido o preço, por ser alteração substancial da proposta.\n\nAnálise anterior favorável não impede a reavaliação.\n\nNa prática: confira cada especificação essencial antes de ofertar.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem participa de pregões.\n\n#licitações #licitacao #lei14133 #tcees #tribunaldecontas #espiritosanto #pregaoeletronico #proposta #diligencia #jurisprudencia",
+  "musica": "Standoff - Density & Time.mp3"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-05_ac4668-2026",
+  "usa": [
+    "4668/2026|2ª Câmara"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Licitações",
+  "fonte": {
+    "acordao": "4668/2026",
+    "colegiado": "2ª Câmara",
+    "relator": "Jorge Oliveira",
+    "boletim": "Boletim de Jurisprudência nº 601",
+    "sessoes": "1º e 2 de setembro de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Planilha de custos · Diligência",
+      "titulo": "Erro na planilha de custos **não leva à desclassificação sumária** da proposta.",
+      "subtitulo": "Acórdão 4668/2026 – 2ª Câmara"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Desclassificação imediata",
+      "paragrafos": [
+        "Na análise das propostas, a **planilha de custos e formação de preços** pode apresentar **erro material** ou **omissão**.",
+        "Às vezes, a proposta é desclassificada de imediato, sem chance de correção."
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "A existência de erro material ou omissão sanável na planilha de custos e de formação de preços não enseja a desclassificação sumária da proposta, devendo o órgão ou a entidade licitante promover diligência para possibilitar a correção da falha (...).",
+      "fonte": "**TCU, Acórdão 4668/2026 – 2ª Câmara**, Rel. Min. Jorge Oliveira. Boletim de Jurisprudência nº 601 (sessões de 1º e 2/9/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "Diligência primeiro",
+      "paragrafos": [
+        "O TCU invocou a busca da **contratação mais vantajosa** para a Administração (**art. 11, inciso I, da Lei 14.133/2021**).",
+        "A correção é admitida desde que **não haja majoração do valor global** originalmente proposto."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Se a sua proposta for desclassificada por erro sanável na planilha, sem diligência prévia, cabe **recurso** com base neste precedente.",
+        "Na correção, ajuste os itens **sem aumentar o preço global** ofertado."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Erro na planilha de custos é motivo para desclassificar a proposta? 🤔\n\nNo Acórdão 4668/2026 – 2ª Câmara (Boletim de Jurisprudência nº 601), o TCU firmou que erro material ou omissão sanável na planilha de custos e formação de preços não enseja desclassificação sumária: o órgão deve promover diligência para a correção, desde que não haja aumento do valor global proposto (art. 11, I, da Lei 14.133/2021).\n\nNa prática: desclassificação sem diligência pode ser revertida em recurso, e a correção deve manter o preço global.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem monta planilhas de custos.\n\n#licitações #licitacao #lei14133 #tcu #planilhadecustos #diligencia #pregaoeletronico #recursoadministrativo #direitoadministrativo #jurisprudencia",
+  "musica": "atlasaudio-corporate-upbeat-578426.mp3"
+}

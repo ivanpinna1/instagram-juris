@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-04_ac2613-2026",
+  "usa": [
+    "2613/2026|Plenário"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Licitações",
+  "fonte": {
+    "acordao": "2613/2026",
+    "colegiado": "Plenário",
+    "relator": "Jhonatan de Jesus",
+    "boletim": "Boletim de Jurisprudência nº 604",
+    "sessoes": "22 e 23 de setembro de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Transparência · Empresas estatais",
+      "titulo": "Estatal pode impor **sigilo total** ao processo de adesão a ata? Para o TCU, não.",
+      "subtitulo": "Acórdão 2613/2026 – Plenário"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Processo fechado",
+      "paragrafos": [
+        "Ao aderir a uma **ata de registro de preços**, há empresas estatais que classificam como sigiloso **todo o processo** ou o **estudo técnico preliminar (ETP)** que fundamenta a adesão.",
+        "Com isso, concorrentes e cidadãos ficam sem acesso às razões da contratação."
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "A imposição de sigilo genérico à integralidade do processo administrativo ou ao estudo técnico preliminar (ETP) que fundamenta a adesão a ata de registro de preços por empresa estatal viola o princípio da publicidade (art. 31, caput, da Lei 13.303/2016).",
+      "fonte": "**TCU, Acórdão 2613/2026 – Plenário**, Rel. Min. Jhonatan de Jesus. Boletim de Jurisprudência nº 604 (sessões de 22 e 23/9/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "Sigilo só na medida certa",
+      "paragrafos": [
+        "Eventual restrição de acesso deve limitar-se às **informações efetivamente protegidas** por hipótese legal de sigilo.",
+        "A parte não sigilosa deve ser disponibilizada (**art. 7º, § 2º, da Lei 12.527/2011**, a Lei de Acesso à Informação), para assegurar o **controle social** e a transparência."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Se a estatal negar acesso integral ao processo de adesão ou ao ETP, peça a **disponibilização da parte não sigilosa**, com base neste precedente.",
+        "Conhecer o ETP permite avaliar a adesão e, se for o caso, questioná-la perante a própria estatal ou o **Tribunal de Contas**."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Estatal pode esconder todo o processo de adesão a uma ata de registro de preços? 🔒\n\nNo Acórdão 2613/2026 – Plenário (Boletim de Jurisprudência nº 604), o TCU firmou que o sigilo genérico sobre todo o processo administrativo ou sobre o ETP que fundamenta a adesão a ata por empresa estatal viola o princípio da publicidade (art. 31 da Lei 13.303/2016).\n\nA restrição deve alcançar só as informações protegidas por hipótese legal de sigilo, com acesso à parte não sigilosa (art. 7º, § 2º, da Lei de Acesso à Informação).\n\nNa prática: o fornecedor pode exigir acesso ao que não é sigiloso para avaliar e, se preciso, questionar a adesão.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem fornece para estatais.\n\n#licitações #licitacao #lei14133 #tcu #empresasestatais #lei13303 #registrodeprecos #transparencia #direitoadministrativo #jurisprudencia",
+  "musica": "Four More Weeks - Vans in Japan.mp3"
+}

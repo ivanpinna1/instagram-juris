@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-05_ac2518-2026",
+  "usa": [
+    "2518/2026|Plenário"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Licitações",
+  "fonte": {
+    "acordao": "2518/2026",
+    "colegiado": "Plenário",
+    "relator": "Benjamin Zymler",
+    "boletim": "Informativo de Licitações e Contratos nº 536",
+    "sessoes": "8, 9, 15 e 16 de setembro de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Garantia de proposta",
+      "titulo": "Prêmio do seguro-garantia em atraso **não autoriza** excluir o licitante.",
+      "subtitulo": "Acórdão 2518/2026 – Plenário"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Exclusão por prêmio em atraso",
+      "paragrafos": [
+        "Muitos editais exigem **garantia de proposta**, e o licitante pode apresentá-la por **seguro-garantia**.",
+        "A dúvida: se o licitante atrasa ou deixa de pagar o **prêmio** à seguradora, pode ser excluído do certame?"
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "É irregular a exclusão de licitante com base, apenas, no atraso ou no inadimplemento no pagamento do prêmio associado a seguro-garantia regularmente emitido e vigente apresentado como garantia de proposta (...).",
+      "fonte": "**TCU, Acórdão 2518/2026 – Plenário**, Rel. Min. Benjamin Zymler. Informativo de Licitações e Contratos nº 536 (sessões de 8, 9, 15 e 16/9/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "A apólice continua valendo",
+      "paragrafos": [
+        "Para o TCU, a apólice **permanece eficaz perante a Administração** mesmo quando o licitante tomador deixa de pagar o prêmio nas datas convencionadas.",
+        "A conclusão decorre da interpretação sistemática dos **arts. 58, § 4º, 96, § 1º, e 97, inciso II, da Lei 14.133/2021**, com a disciplina específica do seguro-garantia."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Se a sua empresa for excluída **apenas** por atraso no prêmio de seguro-garantia regularmente emitido e vigente, a decisão pode ser contestada com base neste precedente.",
+        "Ainda assim, mantenha o prêmio em dia: o precedente protege a participação, mas **não dispensa** a obrigação perante a seguradora."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Atrasou o prêmio do seguro-garantia da proposta. Pode ser excluído da licitação? 🤔\n\nNo Acórdão 2518/2026 – Plenário (Informativo de Licitações e Contratos nº 536), o TCU firmou que é irregular excluir o licitante apenas pelo atraso ou inadimplemento do prêmio de seguro-garantia regularmente emitido e vigente, apresentado como garantia de proposta.\n\nA apólice permanece eficaz perante a Administração mesmo sem o pagamento do prêmio nas datas combinadas (arts. 58, § 4º, 96, § 1º, e 97, II, da Lei 14.133/2021).\n\nNa prática: exclusão só por esse motivo pode ser contestada.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem participa de licitações.\n\n#licitações #licitacao #lei14133 #tcu #garantia #segurogarantia #pregaoeletronico #direitoadministrativo #jurisprudencia",
+  "musica": "atlasaudio-chill-ambient-625687.mp3"
+}

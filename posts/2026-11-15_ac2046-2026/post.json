@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-15_ac2046-2026",
+  "usa": [
+    "2046/2026|Plenário"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Licitações",
+  "fonte": {
+    "acordao": "2046/2026",
+    "colegiado": "Plenário",
+    "relator": "Jorge Oliveira",
+    "boletim": "Informativo de Licitações e Contratos nº 533",
+    "sessoes": "29 de julho; 4 e 5 de agosto de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Consórcios",
+      "titulo": "Dá para **trocar uma empresa do consórcio** no meio da licitação? Para o TCU, **excepcionalmente, sim**.",
+      "subtitulo": "Acórdão 2046/2026 – Plenário"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Impedimento no meio do caminho",
+      "paragrafos": [
+        "Durante a licitação, uma das empresas de um consórcio passou a ter um **impedimento jurídico** para participar.",
+        "O consórcio foi desclassificado e, em recurso, pediu para **substituir a consorciada** por outra com qualificações equivalentes."
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "Admite-se, em caráter excepcional, alteração da composição de consórcio (art. 15, § 5º, da Lei 14.133/2021) durante o procedimento licitatório, desde que a medida seja autorizada pela Administração e a empresa substituta demonstre qualificações técnica e econômico-financeira, no mínimo, equivalentes às da consorciada substituída. (...)",
+      "fonte": "**TCU, Acórdão 2046/2026 – Plenário**, Rel. Min. Jorge Oliveira. Informativo de Licitações e Contratos nº 533 (sessões de 29/7 e 4 e 5/8/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "Quais são os limites?",
+      "paragrafos": [
+        "A troca depende de **autorização da Administração** e de qualificação técnica e econômico-financeira **no mínimo equivalente** à da empresa substituída (art. 15, § 5º, da Lei 14.133/2021).",
+        "Na licitação, ela só serve para **afastar impedimento jurídico superveniente**, sem modificar **preço, solução técnica** ou qualquer elemento substancial da proposta."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Se um impedimento atingir uma consorciada durante o certame, o consórcio pode pedir a **substituição** por empresa de qualificação equivalente.",
+        "Para os concorrentes: troca que altere o **preço** ou a **proposta** foge da exceção admitida e pode ser questionada em **recurso**."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Uma empresa do consórcio ficou impedida no meio da licitação. Dá para trocá-la? 🤝\n\nNo Acórdão 2046/2026 – Plenário (Informativo de Licitações e Contratos nº 533), o TCU admitiu, em caráter excepcional, a alteração da composição de consórcio durante a licitação (art. 15, § 5º, da Lei 14.133/2021), desde que autorizada pela Administração e com empresa substituta de qualificação técnica e econômico-financeira no mínimo equivalente.\n\nA exceção vale apenas para afastar impedimento jurídico superveniente, sem mudar o preço, a solução técnica ou qualquer elemento substancial da proposta.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem participa de licitações.\n\n#licitações #lei14133 #tcu #consorcio #habilitacao #recursoadministrativo #jurisprudencia #direitoadministrativo #contratacaointegrada",
+  "musica": "nastelbom-motivation-motivation-music-623757.mp3"
+}

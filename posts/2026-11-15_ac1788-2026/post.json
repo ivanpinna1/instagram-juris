@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-15_ac1788-2026",
+  "usa": [
+    "1788/2026|Plenário"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Licitações",
+  "fonte": {
+    "acordao": "1788/2026",
+    "colegiado": "Plenário",
+    "relator": "Bruno Dantas",
+    "boletim": "Boletim de Jurisprudência nº 593",
+    "sessoes": "7 e 8 de julho de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Diligências",
+      "titulo": "Balanço registrado na junta **depois da abertura** do certame vale em diligência? Para o TCU, **sim**.",
+      "subtitulo": "Acórdão 1788/2026 – Plenário"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Documento novo ou não?",
+      "paragrafos": [
+        "O **art. 64 da Lei 14.133/2021** veda, depois da entrega dos documentos de habilitação, a **inclusão de documento novo**.",
+        "Mas o próprio artigo admite diligência para comprovar **condição de habilitação que já existia** antes da abertura da sessão pública (inciso I)."
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "A vedação à inclusão de novo documento (art. 64 da Lei 14.133/2021) não alcança aquele, apresentado em resposta a diligência, destinado a atestar condição de habilitação preexistente à abertura da sessão pública (art. 64, inciso I), a exemplo de balanço patrimonial – ainda que seu registro na junta comercial pertinente tenha ocorrido após a abertura do certame –, tendo em vista sua natureza declaratória da situação econômico-financeira da empresa em momento pretérito.",
+      "fonte": "**TCU, Acórdão 1788/2026 – Plenário**, Rel. Min. Bruno Dantas. Boletim de Jurisprudência nº 593 (sessões de 7 e 8/7/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "Por que o balanço vale?",
+      "paragrafos": [
+        "O balanço patrimonial tem **natureza declaratória**: retrata a situação econômico-financeira da empresa em **momento passado**.",
+        "Por isso, o registro na junta comercial **após a abertura** do certame não o transforma no documento novo vedado pelo art. 64."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Se o balanço for recusado **só pela data do registro** na junta, há fundamento para **recurso** com base neste precedente.",
+        "Em diligência, apresente o documento que comprove a **condição que já existia** quando a sessão pública foi aberta."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Seu balanço foi registrado na junta depois da abertura da licitação. Ainda vale? 📑\n\nNo Acórdão 1788/2026 – Plenário (Boletim de Jurisprudência nº 593), o TCU entendeu que a vedação à inclusão de documento novo (art. 64 da Lei 14.133/2021) não alcança o documento apresentado em diligência para atestar condição de habilitação preexistente à abertura da sessão pública.\n\nO exemplo é o balanço patrimonial, ainda que registrado na junta comercial depois da abertura do certame, por sua natureza declaratória da situação econômico-financeira da empresa em momento passado.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem participa de licitações.\n\n#licitações #lei14133 #tcu #diligencia #habilitacao #balancopatrimonial #formalismomoderado #recursoadministrativo #jurisprudencia",
+  "musica": "nastelbom-motivation-motivation-music-623757.mp3"
+}

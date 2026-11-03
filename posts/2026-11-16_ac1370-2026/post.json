@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-16_ac1370-2026",
+  "usa": [
+    "1370/2026|Plenário"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Licitações",
+  "fonte": {
+    "acordao": "1370/2026",
+    "colegiado": "Plenário",
+    "relator": "Jhonatan de Jesus",
+    "boletim": "Boletim de Jurisprudência nº 587",
+    "sessoes": "26 e 27 de maio de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Qualificação técnica",
+      "titulo": "Exigir **obras em execução** para habilitar? No Minha Casa, Minha Vida, o TCU diz que **é irregular**.",
+      "subtitulo": "Acórdão 1370/2026 – Plenário"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Obra em andamento como requisito",
+      "paragrafos": [
+        "Em certame para construir unidades do **Programa Minha Casa, Minha Vida**, com recursos do **Fundo de Arrendamento Residencial**, exigiu-se número mínimo de **unidades em fase de execução**.",
+        "Quem tinha experiência apenas em obras **já concluídas** não atendia à exigência."
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "Em certame para a construção de unidades habitacionais do Programa Minha Casa, Minha Vida, com recursos do Fundo de Arrendamento Residencial (Lei 10.188/2001), é irregular a exigência, para fins de habilitação, de que as licitantes comprovem número mínimo de unidades em fase de execução (...).",
+      "fonte": "**TCU, Acórdão 1370/2026 – Plenário**, Rel. Min. Jhonatan de Jesus. Boletim de Jurisprudência nº 587 (sessões de 26 e 27/5/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "Por que é irregular?",
+      "paragrafos": [
+        "A experiência em empreendimento **concluído** de porte equivalente demonstra capacidade técnica **igual ou superior** à de uma obra em execução.",
+        "Além disso, não há garantia de que a obra em andamento será **concluída com êxito**: a construtora pode abandoná-la ou não entregá-la nos padrões exigidos."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Se o edital exigir unidades **em execução** como condição de habilitação, a cláusula pode ser **impugnada**.",
+        "Para o TCU, atestados de obras **concluídas** de porte equivalente demonstram a capacidade técnica."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "O edital exige unidades habitacionais em execução para habilitar sua construtora? 🏗️\n\nNo Acórdão 1370/2026 – Plenário (Boletim de Jurisprudência nº 587), o TCU firmou que, em certame para construção de unidades do Programa Minha Casa, Minha Vida com recursos do FAR, é irregular exigir, na habilitação, número mínimo de unidades em fase de execução.\n\nA experiência em empreendimento concluído de porte equivalente demonstra capacidade igual ou superior, e não se pode assegurar que a obra em andamento será concluída com êxito.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem participa de licitações.\n\n#licitações #lei14133 #tcu #qualificacaotecnica #habilitacao #minhacasaminhavida #obras #impugnacao #jurisprudencia",
+  "musica": "atlasaudio-corporate-upbeat-578426.mp3"
+}

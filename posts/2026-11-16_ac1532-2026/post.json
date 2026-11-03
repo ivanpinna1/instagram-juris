@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-16_ac1532-2026",
+  "usa": [
+    "1532/2026|Plenário"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Licitações",
+  "fonte": {
+    "acordao": "1532/2026",
+    "colegiado": "Plenário",
+    "relator": "Benjamin Zymler",
+    "boletim": "Informativo de Licitações e Contratos nº 530",
+    "sessoes": "16, 17, 23 e 24 de junho de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Estudo técnico preliminar",
+      "titulo": "O edital precisa trazer o **ETP como anexo**? Para o TCU, **a Lei 14.133 não exige**.",
+      "subtitulo": "Acórdão 1532/2026 – Plenário"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "O ETP e o edital",
+      "paragrafos": [
+        "O **estudo técnico preliminar (ETP)** é o documento do planejamento que levanta as alternativas de mercado e orienta a solução escolhida pela Administração.",
+        "A dúvida: ele precisa ser **anexado ao edital** ou divulgado na internet **antes** da publicação?"
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "Não há imposição, na Lei 14.133/2021, para que o estudo técnico preliminar (ETP) seja anexado ao instrumento convocatório, nem para sua divulgação na internet como requisito prévio à publicação do edital de licitação, o que não impede a Administração, no exercício do poder discricionário e resguardados os sigilos legais, de disponibilizar o documento por razões de transparência e governança. (...)",
+      "fonte": "**TCU, Acórdão 1532/2026 – Plenário**, Rel. Min. Benjamin Zymler. Informativo de Licitações e Contratos nº 530 (sessões de 16, 17, 23 e 24/6/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "Divulgar não é anexar",
+      "paragrafos": [
+        "O TCU interpretou o art. 28 da **Resolução CNJ 468/2022** e o art. 34 da **IN SGD-ME 94/2022** em conformidade com o **art. 54, § 3º, da Lei 14.133/2021**.",
+        "Assim, disponibilizar o ETP em sítio eletrônico de amplo acesso **não se confunde** com sua integração obrigatória ao edital como anexo."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "A ausência do ETP entre os anexos, **por si só**, não torna o edital irregular: não aposte nisso como fundamento isolado de impugnação.",
+        "A Administração **pode** divulgá-lo por transparência e governança, resguardados os sigilos legais."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "O ETP não veio anexado ao edital. Isso é irregular? 🧐\n\nNo Acórdão 1532/2026 – Plenário (Informativo de Licitações e Contratos nº 530), o TCU firmou que a Lei 14.133/2021 não impõe que o estudo técnico preliminar seja anexado ao edital, nem divulgado na internet como requisito prévio à publicação do edital.\n\nNada impede, porém, que a Administração o disponibilize por razões de transparência e governança, resguardados os sigilos legais. Divulgar o ETP em sítio eletrônico não se confunde com integrá-lo obrigatoriamente ao edital.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem participa de licitações.\n\n#licitações #lei14133 #tcu #etp #estudotecnicopreliminar #edital #planejamento #impugnacao #jurisprudencia",
+  "musica": "Four More Weeks - Vans in Japan.mp3"
+}

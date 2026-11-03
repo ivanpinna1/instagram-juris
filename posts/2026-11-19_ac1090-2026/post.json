@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-19_ac1090-2026",
+  "usa": [
+    "1090/2026|Plenário"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Licitações",
+  "fonte": {
+    "acordao": "1090/2026",
+    "colegiado": "Plenário",
+    "relator": "Jhonatan de Jesus",
+    "boletim": "Boletim de Jurisprudência nº 583",
+    "sessoes": "28 e 29 de abril de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Sistema S · Conflito de interesses",
+      "titulo": "Empresa com **dirigente ou empregado** do Sistema S como sócio pode ser contratada por ele? Para o TCU, **não**.",
+      "subtitulo": "Acórdão 1090/2026 – Plenário"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Sócio de dentro",
+      "paragrafos": [
+        "Uma entidade do **Sistema S** contrata empresa que tem, no quadro societário, **dirigentes ou empregados** da própria entidade.",
+        "A dúvida: a vedação vale só na contratação direta ou também quando há **licitação**?"
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "É vedada a contratação, seja direta ou mediante licitação, pelas entidades do Sistema S, de empresas que detenham em seus quadros societários dirigentes ou empregados da entidade contratante, por possibilitar o surgimento de conflito de interesses e afrontar os princípios administrativos (art. 37, caput, da Constituição Federal), especialmente os da moralidade, da impessoalidade e da isonomia.",
+      "fonte": "**TCU, Acórdão 1090/2026 – Plenário**, Rel. Min. Jhonatan de Jesus. Boletim de Jurisprudência nº 583 (sessões de 28 e 29/4/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "Por que é vedado?",
+      "paragrafos": [
+        "A situação possibilita o surgimento de **conflito de interesses**.",
+        "E afronta os princípios do **art. 37, caput, da Constituição**, especialmente **moralidade, impessoalidade e isonomia** — por isso a vedação alcança a contratação direta **e** a licitação."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Antes de disputar certames do Sistema S, verifique o **quadro societário**: sócio que seja dirigente ou empregado da entidade contratante impede a contratação.",
+        "Concorrentes podem apontar essa situação em **impugnação ou recurso**."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Sua empresa tem como sócio alguém que trabalha no Sistema S? 🚫\n\nNo Acórdão 1090/2026 – Plenário (Boletim de Jurisprudência nº 583), o TCU firmou que é vedada a contratação, direta ou mediante licitação, pelas entidades do Sistema S, de empresas que tenham em seus quadros societários dirigentes ou empregados da entidade contratante.\n\nA situação possibilita conflito de interesses e afronta os princípios do art. 37, caput, da Constituição, especialmente moralidade, impessoalidade e isonomia.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem participa de licitações.\n\n#licitações #lei14133 #tcu #sistemas #conflitodeinteresses #habilitacao #moralidade #recursoadministrativo #jurisprudencia",
+  "musica": "Standoff - Density & Time.mp3"
+}

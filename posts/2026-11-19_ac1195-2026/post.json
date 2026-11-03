@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-19_ac1195-2026",
+  "usa": [
+    "1195/2026|Plenário"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Licitações",
+  "fonte": {
+    "acordao": "1195/2026",
+    "colegiado": "Plenário",
+    "relator": "Benjamin Zymler",
+    "boletim": "Boletim de Jurisprudência nº 585",
+    "sessoes": "12 e 13 de maio de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Contratação integrada",
+      "titulo": "Já há projeto executivo. Cabe **contratação integrada** para o remanescente da obra? Para o TCU, **sim, se motivada**.",
+      "subtitulo": "Acórdão 1195/2026 – Plenário"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Obra remanescente com projeto pronto",
+      "paragrafos": [
+        "Na **contratação integrada**, o contratado elabora os projetos básico e executivo e executa a obra.",
+        "Quando o remanescente da obra **já tem projeto executivo**, surge a dúvida sobre o cabimento desse regime."
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "É possível utilizar a contratação integrada para remanescente de obras com projeto executivo previamente desenvolvido, desde que a Administração motive sua escolha, indicando as vantagens técnicas e econômicas advindas da opção por esse regime e a parcela da solução de engenharia que permanece aberta à contribuição técnica das licitantes. (...)",
+      "fonte": "**TCU, Acórdão 1195/2026 – Plenário**, Rel. Min. Benjamin Zymler. Boletim de Jurisprudência nº 585 (sessões de 12 e 13/5/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "O peso da motivação",
+      "paragrafos": [
+        "A Administração deve indicar as **vantagens técnicas e econômicas** do regime e a parcela da solução de engenharia que **permanece aberta** às licitantes.",
+        "Para o TCU, o projeto anterior, **por si só**, não elimina a competição por soluções com melhor relação entre **custo, prazo, desempenho e risco**."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Em editais de remanescente sob contratação integrada, procure a **motivação** e a indicação do que fica aberto à **solução técnica** das licitantes.",
+        "Faltando essa motivação, o ponto pode ser questionado em **impugnação**."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Obra remanescente com projeto executivo pronto licitada por contratação integrada. Pode? 🏗️\n\nNo Acórdão 1195/2026 – Plenário (Boletim de Jurisprudência nº 585), o TCU admitiu a contratação integrada para remanescente de obras com projeto executivo já desenvolvido, desde que a Administração motive a escolha, indicando as vantagens técnicas e econômicas do regime e a parcela da solução de engenharia aberta às licitantes.\n\nSegundo o Tribunal, a existência de projeto executivo anterior, por si só, não elimina a competição por soluções com melhor relação entre custo, prazo, desempenho e risco.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem participa de licitações.\n\n#licitações #lei14133 #tcu #contratacaointegrada #obras #engenharia #remanescente #impugnacao #jurisprudencia",
+  "musica": "The Beast Within - The Soundings.mp3"
+}

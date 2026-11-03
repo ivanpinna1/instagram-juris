@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-18_ac987-2026",
+  "usa": [
+    "987/2026|Plenário"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Contratos",
+  "fonte": {
+    "acordao": "987/2026",
+    "colegiado": "Plenário",
+    "relator": "Augusto Nardes",
+    "boletim": "Boletim de Jurisprudência nº 582",
+    "sessoes": "22 de abril de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Terceirização",
+      "titulo": "Terceirizado fazendo o **trabalho de servidor de carreira**? Para o TCU, **é irregular**.",
+      "subtitulo": "Acórdão 987/2026 – Plenário"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Funções sobrepostas",
+      "paragrafos": [
+        "Em contratos com **dedicação exclusiva de mão de obra**, os terceirizados às vezes passam a exercer as **mesmas funções** dos servidores ou empregados de carreira do órgão.",
+        "A sobreposição ocorre mesmo sem chefia direta do órgão sobre esses trabalhadores."
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "A superposição de funções entre os terceirizados de empresa contratada em regime de dedicação exclusiva de mão de obra e os servidores ou empregados de carreira da entidade pública contratante caracteriza infringência ao art. 37, inciso II, da Constituição Federal (...), independentemente de haver ou não subordinação direta ou poder de decisão.",
+      "fonte": "**TCU, Acórdão 987/2026 – Plenário**, Rel. Min. Augusto Nardes. Boletim de Jurisprudência nº 582 (sessão de 22/4/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "Os fundamentos",
+      "paragrafos": [
+        "A sobreposição contraria a **regra do concurso público** (art. 37, II, da Constituição).",
+        "E viola o **art. 3º, IV, do Decreto 9.507/2018**, que proíbe a execução indireta de serviços **inerentes às categorias funcionais** do plano de cargos — haja ou não subordinação direta ou poder de decisão."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Para a contratada: os postos devem executar o **objeto do contrato**, não atribuições próprias dos cargos de carreira do órgão.",
+        "A irregularidade existe **mesmo sem subordinação direta** ou poder de decisão dos terceirizados."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Seus terceirizados estão fazendo o trabalho dos servidores do órgão? 👷\n\nNo Acórdão 987/2026 – Plenário (Boletim de Jurisprudência nº 582), o TCU firmou que a superposição de funções entre terceirizados em regime de dedicação exclusiva de mão de obra e servidores ou empregados de carreira do órgão contratante infringe o art. 37, II, da Constituição (regra do concurso público).\n\nA situação também viola o art. 3º, IV, do Decreto 9.507/2018, que proíbe a execução indireta de serviços inerentes às categorias do plano de cargos, haja ou não subordinação direta ou poder de decisão.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem participa de licitações.\n\n#licitações #lei14133 #tcu #terceirizacao #dedicacaoexclusiva #contratosadministrativos #maodeobra #jurisprudencia #direitoadministrativo",
+  "musica": "The Beast Within - The Soundings.mp3"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-17_ac1218-2026",
+  "usa": [
+    "1218/2026|Plenário"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Licitações",
+  "fonte": {
+    "acordao": "1218/2026",
+    "colegiado": "Plenário",
+    "relator": "Jhonatan de Jesus",
+    "boletim": "Informativo de Licitações e Contratos nº 527",
+    "sessoes": "5, 6, 12 e 13 de maio de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Matriz de riscos",
+      "titulo": "Taxa de risco do orçamento baseada **só na opinião de especialistas**? Para o TCU, **é irregular**.",
+      "subtitulo": "Acórdão 1218/2026 – Plenário"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "O risco dentro do preço",
+      "paragrafos": [
+        "Quando o contratado assume riscos definidos na **matriz de alocação de riscos**, uma parcela correspondente pode ser incorporada ao **orçamento estimativo**.",
+        "O problema é como calcular essa **taxa de risco**: com que dados se definem a **probabilidade** e o **impacto** de cada evento?"
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "Na hipótese de incorporação de parcela correspondente ao risco assumido pelo particular – definido na matriz de alocação de riscos – ao orçamento estimativo da contratação, é irregular, tanto no âmbito da Lei 14.133/2021 quanto no da Lei 13.303/2016, a utilização exclusiva da opinião de especialistas para balizar as variáveis de probabilidade e impacto nas modelagens da taxa de risco (...).",
+      "fonte": "**TCU, Acórdão 1218/2026 – Plenário**, Rel. Min. Jhonatan de Jesus. Informativo de Licitações e Contratos nº 527 (sessões de 5, 6, 12 e 13/5/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "Por que não basta?",
+      "paragrafos": [
+        "A opinião de especialistas, sozinha, **não supre** a parametrização baseada em **estudos empíricos** e **dados históricos conclusivos**.",
+        "O entendimento vale tanto para a **Lei 14.133/2021** quanto para a **Lei 13.303/2016** (estatais)."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem licita",
+      "paragrafos": [
+        "Em licitações com matriz de riscos, examine a **metodologia** usada para calcular a taxa de risco do orçamento.",
+        "Taxa sustentada apenas em opinião de especialistas pode ser questionada em **impugnação** ou perante o **Tribunal de Contas**."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Como foi calculada a taxa de risco embutida no orçamento da licitação? 📊\n\nNo Acórdão 1218/2026 – Plenário (Informativo de Licitações e Contratos nº 527), o TCU firmou que, ao incorporar ao orçamento estimativo a parcela do risco assumido pelo contratado na matriz de riscos, é irregular usar exclusivamente a opinião de especialistas para definir probabilidade e impacto na taxa de risco.\n\nEssa metodologia não supre a necessidade de parametrização baseada em estudos empíricos e dados históricos conclusivos, tanto na Lei 14.133/2021 quanto na Lei 13.303/2016.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem participa de licitações.\n\n#licitações #lei14133 #tcu #matrizderiscos #orcamento #obras #lei13303 #impugnacao #jurisprudencia",
+  "musica": "Standoff - Density & Time.mp3"
+}

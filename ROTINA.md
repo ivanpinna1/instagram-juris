@@ -5,7 +5,7 @@ Consultor Jurídico (a skill dispara a tarefa agendada), para que a jurisprudên
 publicada já nos próximos horários.
 
 Este arquivo orienta a tarefa agendada que mantém a agenda abastecida. O publicador
-(`publicar.py`, via GitHub Actions) publica sozinho, às 13h (Brasília) dos dias úteis, tudo o que
+(`publicar.py`, via GitHub Actions) publica sozinho, às 13h (Brasília), todos os dias, tudo o que
 estiver vencido em `agenda.json` na branch `main`. **Não há aprovação manual**: o que entra na `main`
 vai ao ar. Por isso as regras editoriais abaixo são obrigatórias.
 
@@ -15,7 +15,7 @@ Os números da conta mostraram que os Reels automáticos (telas + música) rendi
 visualizações, menos que os carrosséis do mesmo tema, e muito menos que os Reels gravados pelo
 Ivan. Além disso, 10 publicações por dia diluíam o alcance. Por isso:
 
-- **1 carrossel por dia útil, às 13:00.** Nada de Reel ou story automático (`fila.py agendar` só
+- **1 carrossel por dia, todos os dias (inclusive fins de semana), às 13:00.** Nada de Reel ou story automático (`fila.py agendar` só
   gera o carrossel; a opção `--reel` existe, mas não deve ser usada).
 - TCU e TCE-ES dividem o mesmo horário; a ordem é sempre do enunciado mais recente para o mais
   antigo (`fila.py replanejar`).
@@ -28,8 +28,8 @@ Ivan. Além disso, 10 publicações por dia diluíam o alcance. Por isso:
    - Ligar o repositório `ivanpinna1/instagram-juris` (acesso de escrita) e cloná-lo.
    - Baixar as bases: Artifact `read` em `https://claude.ai/artifact/1XDw8XdzSCTSLXL4fpaD2Z`,
      caminhos `references/tcu/enunciados.tsv` e, se existir, `references/tce-es/enunciados.tsv`.
-2. Meta: agenda com carrossel em **todos os dias úteis dos próximos 10 dias úteis**. Se faltar,
-   `python3 fila.py vago` mostra o próximo horário livre (dia útil, 13:00).
+2. Meta: agenda com carrossel em **todos os dias dos próximos 10 dias**. Se faltar,
+   `python3 fila.py vago` mostra o próximo horário livre (13:00).
 3. `python3 fila.py proximos <enunciados.tsv> --n 30` (e, para o TCE-ES,
    `python3 fila.py proximos <base do TCE-ES> --tribunal TCE-ES`) lista os candidatos, do mais
    recente para o mais antigo **pela data da sessão**, já filtrados (Informativos de Licitações e

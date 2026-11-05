@@ -5,11 +5,11 @@
       Lista (JSON) os próximos enunciados de licitações e contratos ainda não usados,
       do mais recente para o mais antigo, sem repetir acórdão.
   python3 fila.py agendar posts/<id> AAAA-MM-DDTHH:MM [--reel --musicas <pasta>]
-      Gera as telas e agenda o carrossel (Brasília). Padrão: 1 carrossel por dia útil, às 13:00.
+      Gera as telas e agenda o carrossel (Brasília). Padrão: 1 carrossel por dia (todos os dias), às 13:00.
       Só com --reel gera também o Reel automático (música sorteada) e agenda Reel + story — desativado
       desde 05/11/2026 por baixo desempenho. Marca os acórdãos como usados.
   python3 fila.py vago
-      Mostra o próximo horário livre (dia útil, 13:00) depois do último carrossel da agenda.
+      Mostra o próximo horário livre (13:00, qualquer dia) depois do último carrossel da agenda.
   python3 fila.py replanejar
       Reordena os posts ainda não publicados pelos horários reservados, do enunciado mais
       recente para o mais antigo (jurisprudência nova passa à frente).
@@ -121,12 +121,10 @@ def agendar(pasta, quando, musicas=None, reel=False):
 
 
 def vago(hora="13:00"):
-    """Próximo dia útil (seg–sex) às `hora`, depois do último carrossel agendado e a partir de amanhã."""
+    """Próximo dia (todos os dias) às `hora`, depois do último carrossel agendado e a partir de amanhã."""
     from datetime import date, timedelta
     ult = max([i["quando"][:10] for i in carregar(AGENDA, []) if i["tipo"] == "carrossel"] or ["2000-01-01"])
     d = max(date.fromisoformat(ult) + timedelta(1), date.today() + timedelta(1))
-    while d.weekday() >= 5:
-        d += timedelta(1)
     print(f"{d.isoformat()}T{hora}")
 
 

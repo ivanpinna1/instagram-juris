@@ -2,9 +2,8 @@ name: Publicar no Instagram
 
 on:
   schedule:
-    # Brasília (UTC-3): 8h, 13h e 20h (TCU) e 10h30 e 17h (TCE-ES); pode atrasar alguns minutos
-    - cron: "0 11,16,20,23 * * *"
-    - cron: "30 13 * * *"
+    # Brasília (UTC-3): 13h, dias úteis (1 carrossel por dia); pode atrasar alguns minutos
+    - cron: "0 16 * * 1-5"
   workflow_dispatch: {}
   push:
     branches: [main]

@@ -4,9 +4,12 @@
   python3 fila.py proximos <enunciados.tsv> [--n 10] [--tribunal TCU|TCE-ES]
       Lista (JSON) os próximos enunciados de licitações e contratos ainda não usados,
       do mais recente para o mais antigo, sem repetir acórdão.
-  python3 fila.py agendar posts/<id> AAAA-MM-DDTHH:MM [--musicas <pasta>]
-      Gera as telas e o Reel (música sorteada) e agenda carrossel + Reel + story (o próprio Reel) no mesmo horário
-      (Brasília). Horários padrão do dia: 08:00, 13:00 e 20:00. Marca os acórdãos como usados.
+  python3 fila.py agendar posts/<id> AAAA-MM-DDTHH:MM [--reel --musicas <pasta>]
+      Gera as telas e agenda o carrossel (Brasília). Padrão: 1 carrossel por dia útil, às 13:00.
+      Só com --reel gera também o Reel automático (música sorteada) e agenda Reel + story — desativado
+      desde 05/11/2026 por baixo desempenho. Marca os acórdãos como usados.
+  python3 fila.py vago
+      Mostra o próximo horário livre (dia útil, 13:00) depois do último carrossel da agenda.
   python3 fila.py replanejar
       Reordena os posts ainda não publicados pelos horários reservados, do enunciado mais
       recente para o mais antigo (jurisprudência nova passa à frente).
@@ -87,13 +90,14 @@ def proximos(tsv, n, tribunal="TCU"):
     print(json.dumps(saida, ensure_ascii=False, indent=1))
 
 
-def agendar(pasta, quando, musicas=None):
-    """quando: AAAA-MM-DDTHH:MM (horário de Brasília). Carrossel e Reel saem no mesmo horário."""
+def agendar(pasta, quando, musicas=None, reel=False):
+    """quando: AAAA-MM-DDTHH:MM (horário de Brasília). Com reel=True, Reel e story saem no mesmo horário."""
     pasta = Path(pasta)
     post = json.loads((pasta / "post.json").read_text(encoding="utf-8"))
     subprocess.run([sys.executable, str(RAIZ / "render.py"), str(pasta / "post.json")], check=True)
-    cmd = [sys.executable, str(RAIZ / "reel.py"), str(pasta)] + (["--musicas", musicas] if musicas else [])
-    subprocess.run(cmd, check=True)
+    if reel:
+        cmd = [sys.executable, str(RAIZ / "reel.py"), str(pasta)] + (["--musicas", musicas] if musicas else [])
+        subprocess.run(cmd, check=True)
     post = json.loads((pasta / "post.json").read_text(encoding="utf-8"))
     rel = pasta.resolve().relative_to(RAIZ).as_posix()
     nc = len(post.get("carrossel", []))
@@ -102,10 +106,11 @@ def agendar(pasta, quando, musicas=None):
     agenda.append({"id": f"{post['id']}:carrossel", "quando": iso, "tipo": "carrossel",
                    "imagens": [f"{rel}/carrossel_{i:02d}.jpg" for i in range(1, nc + 1)],
                    "legenda": post["legenda"]})
-    agenda.append({"id": f"{post['id']}:reel", "quando": iso, "tipo": "reel",
-                   "video": f"{rel}/reel.mp4", "legenda": post["legenda"]})
-    agenda.append({"id": f"{post['id']}:story", "quando": iso, "tipo": "story",
-                   "video": f"{rel}/reel.mp4"})
+    if reel:
+        agenda.append({"id": f"{post['id']}:reel", "quando": iso, "tipo": "reel",
+                       "video": f"{rel}/reel.mp4", "legenda": post["legenda"]})
+        agenda.append({"id": f"{post['id']}:story", "quando": iso, "tipo": "story",
+                       "video": f"{rel}/reel.mp4"})
     agenda.sort(key=lambda i: i["quando"])
     AGENDA.write_text(json.dumps(agenda, ensure_ascii=False, indent=2), encoding="utf-8")
     usados = carregar(USADOS, {})
@@ -113,6 +118,16 @@ def agendar(pasta, quando, musicas=None):
         usados[k] = post["id"]
     USADOS.write_text(json.dumps(usados, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"agendado {post['id']} para {quando}")
+
+
+def vago(hora="13:00"):
+    """Próximo dia útil (seg–sex) às `hora`, depois do último carrossel agendado e a partir de amanhã."""
+    from datetime import date, timedelta
+    ult = max([i["quando"][:10] for i in carregar(AGENDA, []) if i["tipo"] == "carrossel"] or ["2000-01-01"])
+    d = max(date.fromisoformat(ult) + timedelta(1), date.today() + timedelta(1))
+    while d.weekday() >= 5:
+        d += timedelta(1)
+    print(f"{d.isoformat()}T{hora}")
 
 
 def replanejar(folga_min=20):
@@ -159,4 +174,6 @@ if __name__ == "__main__":
         replanejar()
     elif cmd == "agendar":
         mus = sys.argv[sys.argv.index("--musicas") + 1] if "--musicas" in sys.argv else None
-        agendar(sys.argv[2], sys.argv[3], mus)
+        agendar(sys.argv[2], sys.argv[3], mus, reel="--reel" in sys.argv)
+    elif cmd == "vago":
+        vago()

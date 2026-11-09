@@ -14,9 +14,9 @@ vai ao ar. Por isso as regras editoriais abaixo são obrigatórias.
 O Ivan decidiu voltar aos Reels no lugar dos carrosséis: o Reel alcança mais o público externo e
 novos seguidores. Por isso:
 
-- **1 Reel por dia, todos os dias (inclusive fins de semana), às 13:00.** Nada de carrossel nem
-  story automático. `fila.py agendar` gera as telas e o Reel (telas 9:16 + música sorteada) e
-  agenda só o Reel; a opção `--carrossel` existe, mas não deve ser usada.
+- **1 Reel por dia, todos os dias (inclusive fins de semana), às 13:00, e um story com o mesmo
+  vídeo no mesmo horário.** Nada de carrossel. `fila.py agendar` gera as telas e o Reel (telas
+  9:16 + música sorteada) e agenda Reel + story; a opção `--carrossel` existe, mas não deve ser usada.
 - O conteúdo do `post.json` continua o mesmo (as 7 telas do campo `carrossel` viram as telas do Reel).
 - TCU e TCE-ES dividem o mesmo horário; a ordem é sempre do enunciado mais recente para o mais
   antigo (`fila.py replanejar`).

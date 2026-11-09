@@ -6,7 +6,7 @@
       do mais recente para o mais antigo, sem repetir acórdão.
   python3 fila.py agendar posts/<id> AAAA-MM-DDTHH:MM --musicas <pasta> [--carrossel]
       Gera as telas e o Reel (música sorteada da pasta) e agenda 1 Reel (Brasília). Padrão desde
-      09/11/2026 (decisão do Ivan): 1 Reel por dia (todos os dias), às 13:00, sem carrossel nem story.
+      09/11/2026 (decisão do Ivan): 1 Reel + story (mesmo vídeo) por dia (todos os dias), às 13:00, sem carrossel.
       Com --carrossel agenda o carrossel no lugar do Reel. Marca os acórdãos como usados.
   python3 fila.py converter reel|carrossel
       Troca o formato de todos os itens ainda não publicados da agenda (mesmo horário e legenda).
@@ -102,6 +102,10 @@ def item_formato(post, rel, iso, formato):
             "legenda": post["legenda"]}
 
 
+def item_story(post, rel, iso):
+    return {"id": f"{post['id']}:story", "quando": iso, "tipo": "story", "video": f"{rel}/reel.mp4"}
+
+
 def agendar(pasta, quando, musicas=None, formato="reel"):
     """quando: AAAA-MM-DDTHH:MM (horário de Brasília). formato: "reel" (padrão) ou "carrossel"."""
     pasta = Path(pasta)
@@ -114,6 +118,8 @@ def agendar(pasta, quando, musicas=None, formato="reel"):
     iso = f"{quando}:00-03:00"
     agenda = [i for i in carregar(AGENDA, []) if not i["id"].startswith(post["id"] + ":")]
     agenda.append(item_formato(post, rel, iso, formato))
+    if formato == "reel":
+        agenda.append(item_story(post, rel, iso))
     agenda.sort(key=lambda i: i["quando"])
     AGENDA.write_text(json.dumps(agenda, ensure_ascii=False, indent=2), encoding="utf-8")
     usados = carregar(USADOS, {})
@@ -139,6 +145,13 @@ def converter(formato):
         if formato == "reel" and not (RAIZ / "posts" / pid / "reel.mp4").exists():
             faltam.append(pid)
         novo.append(item_formato(post, f"posts/{pid}", i["quando"], formato))
+    if formato == "reel":  # cada Reel não publicado ganha um story com o mesmo vídeo, no mesmo horário
+        ids = {i["id"] for i in novo}
+        for i in list(novo):
+            if i["tipo"] == "reel" and i["id"] not in publicados:
+                pid = i["id"].split(":")[0]
+                if f"{pid}:story" not in ids:
+                    novo.append(item_story({"id": pid}, f"posts/{pid}", i["quando"]))
     novo.sort(key=lambda i: i["quando"])
     AGENDA.write_text(json.dumps(novo, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"convertido para {formato}" + (f"; sem reel.mp4 (rode reel.py): {faltam}" if faltam else ""))

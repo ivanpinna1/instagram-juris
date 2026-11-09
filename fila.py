@@ -4,12 +4,14 @@
   python3 fila.py proximos <enunciados.tsv> [--n 10] [--tribunal TCU|TCE-ES]
       Lista (JSON) os próximos enunciados de licitações e contratos ainda não usados,
       do mais recente para o mais antigo, sem repetir acórdão.
-  python3 fila.py agendar posts/<id> AAAA-MM-DDTHH:MM [--reel --musicas <pasta>]
-      Gera as telas e agenda o carrossel (Brasília). Padrão: 1 carrossel por dia (todos os dias), às 13:00.
-      Só com --reel gera também o Reel automático (música sorteada) e agenda Reel + story — desativado
-      desde 05/11/2026 por baixo desempenho. Marca os acórdãos como usados.
+  python3 fila.py agendar posts/<id> AAAA-MM-DDTHH:MM --musicas <pasta> [--carrossel]
+      Gera as telas e o Reel (música sorteada da pasta) e agenda 1 Reel (Brasília). Padrão desde
+      09/11/2026 (decisão do Ivan): 1 Reel por dia (todos os dias), às 13:00, sem carrossel nem story.
+      Com --carrossel agenda o carrossel no lugar do Reel. Marca os acórdãos como usados.
+  python3 fila.py converter reel|carrossel
+      Troca o formato de todos os itens ainda não publicados da agenda (mesmo horário e legenda).
   python3 fila.py vago
-      Mostra o próximo horário livre (13:00, qualquer dia) depois do último carrossel da agenda.
+      Mostra o próximo horário livre (13:00, qualquer dia) depois do último post da agenda.
   python3 fila.py replanejar
       Reordena os posts ainda não publicados pelos horários reservados, do enunciado mais
       recente para o mais antigo (jurisprudência nova passa à frente).
@@ -90,40 +92,62 @@ def proximos(tsv, n, tribunal="TCU"):
     print(json.dumps(saida, ensure_ascii=False, indent=1))
 
 
-def agendar(pasta, quando, musicas=None, reel=False):
-    """quando: AAAA-MM-DDTHH:MM (horário de Brasília). Com reel=True, Reel e story saem no mesmo horário."""
+def item_formato(post, rel, iso, formato):
+    if formato == "reel":
+        return {"id": f"{post['id']}:reel", "quando": iso, "tipo": "reel",
+                "video": f"{rel}/reel.mp4", "legenda": post["legenda"]}
+    nc = len(post.get("carrossel", []))
+    return {"id": f"{post['id']}:carrossel", "quando": iso, "tipo": "carrossel",
+            "imagens": [f"{rel}/carrossel_{i:02d}.jpg" for i in range(1, nc + 1)],
+            "legenda": post["legenda"]}
+
+
+def agendar(pasta, quando, musicas=None, formato="reel"):
+    """quando: AAAA-MM-DDTHH:MM (horário de Brasília). formato: "reel" (padrão) ou "carrossel"."""
     pasta = Path(pasta)
-    post = json.loads((pasta / "post.json").read_text(encoding="utf-8"))
     subprocess.run([sys.executable, str(RAIZ / "render.py"), str(pasta / "post.json")], check=True)
-    if reel:
+    if formato == "reel":
         cmd = [sys.executable, str(RAIZ / "reel.py"), str(pasta)] + (["--musicas", musicas] if musicas else [])
         subprocess.run(cmd, check=True)
     post = json.loads((pasta / "post.json").read_text(encoding="utf-8"))
     rel = pasta.resolve().relative_to(RAIZ).as_posix()
-    nc = len(post.get("carrossel", []))
     iso = f"{quando}:00-03:00"
     agenda = [i for i in carregar(AGENDA, []) if not i["id"].startswith(post["id"] + ":")]
-    agenda.append({"id": f"{post['id']}:carrossel", "quando": iso, "tipo": "carrossel",
-                   "imagens": [f"{rel}/carrossel_{i:02d}.jpg" for i in range(1, nc + 1)],
-                   "legenda": post["legenda"]})
-    if reel:
-        agenda.append({"id": f"{post['id']}:reel", "quando": iso, "tipo": "reel",
-                       "video": f"{rel}/reel.mp4", "legenda": post["legenda"]})
-        agenda.append({"id": f"{post['id']}:story", "quando": iso, "tipo": "story",
-                       "video": f"{rel}/reel.mp4"})
+    agenda.append(item_formato(post, rel, iso, formato))
     agenda.sort(key=lambda i: i["quando"])
     AGENDA.write_text(json.dumps(agenda, ensure_ascii=False, indent=2), encoding="utf-8")
     usados = carregar(USADOS, {})
     for k in post.get("usa", []):
         usados[k] = post["id"]
     USADOS.write_text(json.dumps(usados, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"agendado {post['id']} para {quando}")
+    print(f"agendado {post['id']} ({formato}) para {quando}")
+
+
+def converter(formato):
+    """Troca o formato dos itens não publicados (carrossel <-> reel), mantendo horário e legenda."""
+    agenda = carregar(AGENDA, [])
+    publicados = carregar(RAIZ / "publicados.json", {})
+    novo, faltam = [], []
+    for i in agenda:
+        if i["id"] in publicados or i["tipo"] not in ("carrossel", "reel", "story"):
+            novo.append(i); continue
+        if i["tipo"] == "story" or i["tipo"] == formato:
+            if i["tipo"] == formato: novo.append(i)
+            continue
+        pid = i["id"].split(":")[0]
+        post = json.loads((RAIZ / "posts" / pid / "post.json").read_text(encoding="utf-8"))
+        if formato == "reel" and not (RAIZ / "posts" / pid / "reel.mp4").exists():
+            faltam.append(pid)
+        novo.append(item_formato(post, f"posts/{pid}", i["quando"], formato))
+    novo.sort(key=lambda i: i["quando"])
+    AGENDA.write_text(json.dumps(novo, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"convertido para {formato}" + (f"; sem reel.mp4 (rode reel.py): {faltam}" if faltam else ""))
 
 
 def vago(hora="13:00"):
-    """Próximo dia (todos os dias) às `hora`, depois do último carrossel agendado e a partir de amanhã."""
+    """Próximo dia (todos os dias) às `hora`, depois do último post agendado e a partir de amanhã."""
     from datetime import date, timedelta
-    ult = max([i["quando"][:10] for i in carregar(AGENDA, []) if i["tipo"] == "carrossel"] or ["2000-01-01"])
+    ult = max([i["quando"][:10] for i in carregar(AGENDA, []) if i["tipo"] in ("carrossel", "reel")] or ["2000-01-01"])
     d = max(date.fromisoformat(ult) + timedelta(1), date.today() + timedelta(1))
     print(f"{d.isoformat()}T{hora}")
 
@@ -172,6 +196,8 @@ if __name__ == "__main__":
         replanejar()
     elif cmd == "agendar":
         mus = sys.argv[sys.argv.index("--musicas") + 1] if "--musicas" in sys.argv else None
-        agendar(sys.argv[2], sys.argv[3], mus, reel="--reel" in sys.argv)
+        agendar(sys.argv[2], sys.argv[3], mus, "carrossel" if "--carrossel" in sys.argv else "reel")
+    elif cmd == "converter":
+        converter(sys.argv[2])
     elif cmd == "vago":
         vago()

@@ -9,18 +9,26 @@ Este arquivo orienta a tarefa agendada que mantém a agenda abastecida. O public
 estiver vencido em `agenda.json` na branch `main`. **Não há aprovação manual**: o que entra na `main`
 vai ao ar. Por isso as regras editoriais abaixo são obrigatórias.
 
-## Formato desde 05/11/2026 (decisão do Ivan)
+## Formato desde 09/11/2026 (decisão do Ivan)
 
-Os números da conta mostraram que os Reels automáticos (telas + música) rendiam de 6 a 25
-visualizações, menos que os carrosséis do mesmo tema, e muito menos que os Reels gravados pelo
-Ivan. Além disso, 10 publicações por dia diluíam o alcance. Por isso:
+O Ivan decidiu voltar aos Reels no lugar dos carrosséis: o Reel alcança mais o público externo e
+novos seguidores. Por isso:
 
-- **1 carrossel por dia, todos os dias (inclusive fins de semana), às 13:00.** Nada de Reel ou story automático (`fila.py agendar` só
-  gera o carrossel; a opção `--reel` existe, mas não deve ser usada).
+- **1 Reel por dia, todos os dias (inclusive fins de semana), às 13:00.** Nada de carrossel nem
+  story automático. `fila.py agendar` gera as telas e o Reel (telas 9:16 + música sorteada) e
+  agenda só o Reel; a opção `--carrossel` existe, mas não deve ser usada.
+- O conteúdo do `post.json` continua o mesmo (as 7 telas do campo `carrossel` viram as telas do Reel).
 - TCU e TCE-ES dividem o mesmo horário; a ordem é sempre do enunciado mais recente para o mais
   antigo (`fila.py replanejar`).
-- **Roteiro semanal de Reel para o Ivan gravar** (ver passo 6).
-- Músicas não são mais necessárias; não é preciso acessar o computador do Ivan.
+- **Roteiro semanal de Reel para o Ivan gravar** continua (ver passo 6).
+- **Músicas:** ficam no computador do Ivan, em `F:\ObsExtras\Musicas-sem-rights` (subpastas Calmo,
+  Corporativo, Dramatico, Epic, Melancolico). Em cada execução que for agendar posts novos, copiar
+  os `.mp3` para a nuvem com `device_stage_files` (vão para
+  `/mnt/user-data/uploads/Musicas-sem-rights`) e passar `--musicas <essa pasta>`. Se o computador
+  não estiver acessível, não agendar posts novos nessa execução (a agenda tem folga) e só avisar
+  o Ivan se a agenda ficar com menos de 2 dias. **Nunca commitar músicas** (só o `reel.mp4`).
+- Histórico: de 05 a 09/11/2026 o formato foi 1 carrossel por dia; `fila.py converter reel|carrossel`
+  troca o formato de tudo o que ainda não foi publicado.
 
 ## Passo a passo
 
@@ -28,7 +36,7 @@ Ivan. Além disso, 10 publicações por dia diluíam o alcance. Por isso:
    - Ligar o repositório `ivanpinna1/instagram-juris` (acesso de escrita) e cloná-lo.
    - Baixar as bases: Artifact `read` em `https://claude.ai/artifact/1XDw8XdzSCTSLXL4fpaD2Z`,
      caminhos `references/tcu/enunciados.tsv` e, se existir, `references/tce-es/enunciados.tsv`.
-2. Meta: agenda com carrossel em **todos os dias dos próximos 10 dias**. Se faltar,
+2. Meta: agenda com Reel em **todos os dias dos próximos 10 dias**. Se faltar,
    `python3 fila.py vago` mostra o próximo horário livre (13:00).
 3. `python3 fila.py proximos <enunciados.tsv> --n 30` (e, para o TCE-ES,
    `python3 fila.py proximos <base do TCE-ES> --tribunal TCE-ES`) lista os candidatos, do mais
@@ -44,10 +52,11 @@ Ivan. Além disso, 10 publicações por dia diluíam o alcance. Por isso:
    `proximos`. No TCE-ES, a capa leva `tag` com o tema e `subtitulo` "TCE-ES · Acórdão nº/ano –
    Colegiado"; fonte no padrão "TCE-ES, Acórdão nº/ano – Colegiado, Rel. Cons. Fulano. Informativo
    de Jurisprudência nº X"; `ponto_atencao` da base pode inspirar a tela "Na prática", reescrito.
-5. `python3 fila.py agendar posts/<pasta> <AAAA-MM-DDTHH:MM>` para cada post (gera as telas e
-   agenda o carrossel). Conferir as capas geradas (e o aviso de texto transbordando, se houver).
+5. `python3 fila.py agendar posts/<pasta> <AAAA-MM-DDTHH:MM> --musicas /mnt/user-data/uploads/Musicas-sem-rights`
+   para cada post (gera as telas e o `reel.mp4` e agenda o Reel). Conferir as telas `reel_01.jpg`
+   (capa) e um quadro do vídeo (e o aviso de texto transbordando, se houver).
 5-A. **Jurisprudência nova fura a fila.** Todo enunciado útil **mais recente** (pela data da sessão)
-   do que o mais antigo dos carrosséis agendados e não publicados vira post agora, no horário de
+   do que o mais antigo dos Reels agendados e não publicados vira post agora, no horário de
    `fila.py vago`; depois rode `python3 fila.py replanejar` (os mais novos saem primeiro; nada é
    descartado).
 6. **Roteiro semanal de Reel (na primeira execução de cada semana — segunda-feira, ou o primeiro
@@ -83,7 +92,7 @@ Ivan. Além disso, 10 publicações por dia diluíam o alcance. Por isso:
 - Não mencionar nomes de responsáveis, apenados ou empresas.
 - Enunciados anteriores a 2021 (Lei 8.666/1993): só usar se o entendimento persistir sob a Lei
   14.133/2021, e dizer isso expressamente no post.
-- Carrossel de 7 telas: capa com pergunta ou afirmação-gancho; 01 — O problema; 02 — O que o TCU
+- Reel de 7 telas (campo `carrossel` do post.json): capa com pergunta ou afirmação-gancho; 01 — O problema; 02 — O que o TCU
   decidiu (citação + fonte); 03 — O fundamento; 04 — Na prática, para quem licita; tela de oferta
   dos serviços do escritório (o render.py insere sozinho, se faltar); tela final "Curta, salve e
   compartilhe" (com a foto do Ivan).

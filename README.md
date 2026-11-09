@@ -1,6 +1,6 @@
 # Publicador de jurisprudência — @ivan.pinna
 
-Publicações diárias (carrossel + Reel + story) a partir das bases de jurisprudência do TCU e do TCE-ES sobre
+Publicações diárias (1 Reel por dia às 13h) a partir das bases de jurisprudência do TCU e do TCE-ES sobre
 licitações e contratos, publicados automaticamente pela API oficial do Instagram.
 
 - `render.py` — gera as artes (carrossel 1080×1350 e telas 1080×1920 do Reel) a partir de `post.json`.

@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-09_ac5462-2026",
+  "usa": [
+    "5462/2026|1ª Câmara"
+  ],
+  "rotulo": "Jurisprudência",
+  "sub_rotulo": "TCU · Contratos",
+  "fonte": {
+    "acordao": "5462/2026",
+    "colegiado": "1ª Câmara",
+    "relator": "Benjamin Zymler",
+    "boletim": "Boletim de Jurisprudência nº 607",
+    "sessoes": "13 e 14 de outubro de 2026"
+  },
+  "carrossel": [
+    {
+      "tipo": "capa",
+      "tag": "Obras · Execução contratual",
+      "titulo": "A distância de transporte **diminuiu** na obra? O preço tem que acompanhar.",
+      "subtitulo": "Acórdão 5462/2026 – 1ª Câmara"
+    },
+    {
+      "tipo": "texto",
+      "num": "01 — O problema",
+      "titulo": "Orçado longe, executado perto",
+      "paragrafos": [
+        "Em obras e serviços de engenharia, o preço considera a **distância média de transporte (DMT)** dos insumos.",
+        "Se, durante a execução, essa distância **diminui**, o serviço efetivamente realizado deixa de corresponder ao que foi orçado."
+      ]
+    },
+    {
+      "tipo": "citacao",
+      "titulo": "02 — O que o TCU decidiu",
+      "citacao": "A redução, durante a execução de obras ou serviços de engenharia, da distância média de transporte de insumos (DMT) impõe a adequação dos preços aos serviços efetivamente realizados, sob pena de caracterização de superestimativa de quantidade, vício que não admite compensação mediante análise do preço global do contrato.",
+      "fonte": "**TCU, Acórdão 5462/2026 – 1ª Câmara**, Rel. Min. Benjamin Zymler. Boletim de Jurisprudência nº 607 (sessões de 13 e 14/10/2026)."
+    },
+    {
+      "tipo": "texto",
+      "num": "03 — O fundamento",
+      "titulo": "Paga-se o que foi executado",
+      "paragrafos": [
+        "Os preços devem ser **adequados aos serviços efetivamente realizados**.",
+        "Sem essa adequação, fica caracterizada **superestimativa de quantidade**, e esse vício **não se compensa** pela análise do preço global do contrato."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "num": "04 — Na prática",
+      "titulo": "Na prática, para quem é contratado",
+      "paragrafos": [
+        "Mudou a origem dos insumos e a DMT caiu? Trate da **adequação dos preços** com a fiscalização, em vez de esperar a glosa.",
+        "Não conte com o argumento de que o **preço global** continua vantajoso: para o TCU, ele não compensa o vício."
+      ]
+    },
+    {
+      "tipo": "oferta",
+      "titulo": "Sua empresa participa de **licitações**?",
+      "lead": "Terceirize toda a área com quem é especialista:",
+      "itens": [
+        "Busca das melhores oportunidades",
+        "Preparação e operação da licitação",
+        "Impugnações e recursos administrativos",
+        "Medidas judiciais e perante os Tribunais de Contas"
+      ],
+      "chamada": "Comente **QUERO** ou chame no direct."
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Curta, **salve** e compartilhe",
+      "texto": "Siga **@ivan.pinna** para mais jurisprudência\nde licitações e contratos."
+    }
+  ],
+  "legenda": "Construtora, atenção: o insumo passou a vir de mais perto? O preço também muda. 🚚\n\nNo Acórdão 5462/2026 – 1ª Câmara (Boletim de Jurisprudência nº 607, sessões de 13 e 14/10/2026), o TCU firmou que a redução da distância média de transporte de insumos (DMT) durante a execução de obras ou serviços de engenharia impõe a adequação dos preços aos serviços efetivamente realizados.\n\nSem isso, há superestimativa de quantidade, e o vício não se compensa com a análise do preço global do contrato. Quem executa a obra deve tratar do ajuste com a fiscalização antes que ele vire glosa.\n\n💼 Sua empresa participa de licitações? Terceirize toda a área com quem é especialista: busca de oportunidades, operação da licitação, impugnações, recursos e medidas judiciais e perante os Tribunais de Contas. Comente QUERO ou chame no direct.\n\n👉 Curta, salve e compartilhe com quem executa obras públicas.\n\n#licitações #lei14133 #tcu #obraspublicas #engenharia #contratosadministrativos #medicao #direitoadministrativo #jurisprudencia"
+}

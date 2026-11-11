@@ -1,5 +1,7 @@
 # Rotina diária de reposição — posts de jurisprudência (@ivan.pinna)
 
+> **SUSPENSA desde 11/11/2026 (decisão do Ivan):** alcance baixo (20 a 100 contas). Os itens não publicados foram movidos para `agenda_suspensa.json`; `agenda.json` ficou só com o já publicado, e a tarefa agendada foi desligada. Para retomar, devolver os itens para `agenda.json` (ajustando as datas com `fila.py replanejar`) e religar a tarefa.
+
 Esta rotina roda nos dias úteis às 10h23 e também logo após cada "atualize o acervo" do
 Consultor Jurídico (a skill dispara a tarefa agendada), para que a jurisprudência nova seja
 publicada já nos próximos horários.

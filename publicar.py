@@ -58,8 +58,9 @@ def url_img(caminho):
 
 def publicar(item):
     if item["tipo"] == "reel":
+        extra = {"thumb_offset": str(item["thumb_offset"])} if item.get("thumb_offset") is not None else {}
         c = chamar("POST", f"{USER}/media", media_type="REELS", video_url=url_img(item["video"]),
-                   caption=item.get("legenda", ""), share_to_feed="true")["id"]
+                   caption=item.get("legenda", ""), share_to_feed="true", **extra)["id"]
         aguardar(c, tentativas=72)  # vídeo: até 6 min de processamento
         return chamar("POST", f"{USER}/media_publish", creation_id=c)["id"]
     if item["tipo"] == "story" and item.get("video"):
